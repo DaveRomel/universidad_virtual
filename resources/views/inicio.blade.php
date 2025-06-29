@@ -2,7 +2,8 @@
 
 @section('contenido')
     <div class="tituloInicio">Bienvenidos a nuestro Portal Educativo en Línea</div>
-    <div class="novedadesContenedor">
+   
+    <div class="seccionContenedor">
         <div class="subtituloInicio">Novedades</div>
         <div class="textoInicio">Revisa las fechas importantes del próximo ciclo escolar, como entrega de documentos, inicio
             de clases y curso propedéutico..</div>
@@ -12,7 +13,7 @@
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Admisión</div>
                     <div class="cardNovedadesSubtitulo">Mastría en Ciencia de Datos</div>
-                    <img src="imagen1.jpg" alt="Imagen 1">
+                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
                     <a href="#" class="boton">Ver más</a>
                 </div>
             </div>
@@ -23,7 +24,7 @@
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Admisión</div>
                     <div class="cardNovedadesSubtitulo">Licenciatura en Estudios Mexicanos</div>
-                    <img src="imagen2.jpg" alt="Imagen 2">
+                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
                     <a href="#" class="boton">Ver más</a>
                 </div>
             </div>
@@ -34,7 +35,7 @@
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Calendario</div>
                     <div class="cardNovedadesSubtitulo">Calendario escolar 2025-B</div>
-                    <img src="imagen3.jpg" alt="Imagen 3">
+                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
                     <a href="#" class="boton">Ver más</a>
                 </div>
             </div>
@@ -45,7 +46,7 @@
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Calendario</div>
                     <div class="cardNovedadesSubtitulo">Curso de verano y propedéutico</div>
-                    <img src="imagen4.jpg" alt="Imagen 4">
+                   <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
                     <a href="#" class="boton">Ver más</a>
                 </div>
             </div>
@@ -56,7 +57,7 @@
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Rescripción</div>
                     <div class="cardNovedadesSubtitulo">Licenciatura en Estudios Mexicanos 2025-B</div>
-                    <img src="imagen5.jpg" alt="Imagen 5">
+                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
                     <a href="#" class="boton">Ver más</a>
                 </div>
             </div>
@@ -67,7 +68,7 @@
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Rescripción</div>
                     <div class="cardNovedadesSubtitulo">Mastría en Ciencia de Datos 2025-B</div>
-                    <img src="imagen6.jpg" alt="Imagen 6">
+                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
                     <a href="#" class="boton">Ver más</a>
                 </div>
             </div>
@@ -75,7 +76,8 @@
 
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Fechas Importanrtes</div>
-                    <img src="imagen7.jpg" alt="Imagen 7">
+                    <div class="cardNovedadesSubtitulo">LEM Y MCD</div>
+                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
                     <a href="#" class="boton">Ver más</a>
 
                 </div>
@@ -86,7 +88,8 @@
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Horarios</div>
                     <div class="cardNovedadesSubtitulo">LEM Y MCD</div>
-                    <img src="imagen8.jpg" alt="Imagen 8">
+                    <br>
+                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
                     <a href="#" class="boton">Ver más</a>
 
                 </div>
@@ -95,7 +98,8 @@
 
         </div>
     </div>
-    <div class="quienesSomosContenedor">
+   
+    <div class="seccionContenedor">
         <div class="subtituloInicio">¿Quienes somos?</div>
         <div class="textoInicio"> El <b>SUNEO</b> es un sistema que descentraliza la educación superior en Oaxaca
             y promueve la excelencia en docencia, investigación y desarrollo. La UTM,
@@ -103,18 +107,18 @@
             el entorno y por medio de su Universidad Virtual ofrece la Licenciatura en
             Estudios Mexicanos y la Maestría en Análisis de Datos</div>
     </div>
-    <div class="ofertaEducativaContenedor">
+    <div class="seccionContenedor">
         <div class="subtituloInicio">Oferta educativa</div>
         <div class="cardOfertaContenedor">
             <div class="OfertacardContenido">
-                <img src="imagen1.jpg" alt="Imagen 1">
+                 <img src="\imagenes\escribiendo.jpg" alt="Imagen">
                 <div class="CardOferta">
                     <div class="CardTituloOferta">Licenciatura de estudios mexicanos</div>
                     <a href="{{ url('/Licenciatura-en-Estudios-Mexicanos') }}" class="boton">Visitar</a>
                 </div>
             </div>
             <div class="OfertacardContenido">
-                <img src="imagen2.jpg" alt="Imagen 2">
+                 <img src="\imagenes\personaViendoComputador.jpg" alt="Imagen 1">
                 <div class="CardOferta">
                     <div class="CardTituloOferta">Maestría en
                         Ciencias de Datos </div>
@@ -124,13 +128,13 @@
         </div>
 
     </div>
-    <div class="recursosAcademicosContenedor">
+    <div class="seccionContenedor">
         <div class="subtituloInicio">Recursos académicos</div>
         <div class="textoInicio"> Este apartado ofrece un repositorio con tutoriales y recursos académicos
             útiles para la elaboración de tesis.</div>
         <div class="cardRacursosContenedor">
             <div class="cardRecursosContenido">
-                <img src="logo-utm.jpg" alt="Repositorio UTM">
+                <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
                 <a href="#">
                     <p>Repositorio UTM</p>
                 </a>
@@ -162,7 +166,7 @@
 
 
             <div class="cardRecursosContenido">
-                <img src="imagen3.jpg" alt="Apoyo para tesis">
+                <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
                 <a href="{{ url('/Recursos-Academicos') }}">
                     <p>Apoyo para tesis</p>
                 </a>
@@ -171,7 +175,7 @@
 
 
             <div class="cardRecursosContenido">
-                <img src="imagen4.jpg" alt="Buscadores académicos">
+                <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
                 <a href="{{ url('/Recursos-Academicos') }}">
                     <p>Buscadores académicos</p>
                 </a>

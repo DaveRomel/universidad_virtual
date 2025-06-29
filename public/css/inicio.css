@@ -1,0 +1,208 @@
+.tituloInicio{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #7e2c2c;
+}
+.subtituloInicio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #1d0707;
+
+
+    margin-left: 50px;
+}
+.textoInicio{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1d0707;
+
+    margin-left: 550px;
+    width: 600px;
+    margin-top: -50px;
+}
+.seccionContenedor{
+    margin-top: 70px;
+    margin-left: 50px;
+    
+}
+/*******************novededes******************/
+
+
+.cardNovedadesContenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.cardNovedades {
+    border: 2px solid #c68c3e; /* Borde dorado */
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cardNovedades:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.cardNovedadesTitulo {
+    font-size: 12px;
+    font-weight: bold;
+    color: #5c3c1a; /* Color café oscuro */
+    text-align: center;
+}
+
+.cardNovedadesSubtitulo {
+    font-size: 10px;
+    color: #7e2c2c; /* Color vino */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cardNovedades img {
+     width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0 auto; 
+    display: block;
+
+}
+
+.boton {
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 10px;
+    border: 2px solid #c68c3e;
+    color: #5c3c1a;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.boton:hover {
+    background-color: #c68c3e;
+    color: white;
+}
+
+/*******************oferta******************/
+.cardOfertaContenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 400px;
+    margin-top: -50px;
+}
+
+.OfertacardContenido {
+    border: 1px solid #c68c3e; 
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.OfertacardContenido:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.OfertacardContenido img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #c68c3e;
+}
+
+.CardOferta {
+    padding: 10px;
+    text-align: center;
+}
+
+.CardTituloOferta {
+    font-size: 14px;
+    color: #7e2c2c;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.boton {
+    display: inline-block;
+    padding: 6px 20px;
+    border: 1px solid #c68c3e;
+    color: #5c3c1a;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 13px;
+}
+
+.boton:hover {
+    background-color: #c68c3e;
+    color: white;
+}
+
+/*******************Recursos ******************/
+
+.cardRacursosContenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.cardRecursosContenido {
+    border: 1px solid #c68c3e;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 8px;
+}
+
+.cardRecursosContenido:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.cardRecursosContenido img,
+.cardRecursosContenido video {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    border-bottom: 1px solid #c68c3e;
+}
+
+.cardRecursosContenido a {
+    text-decoration: none;
+    text-align: center;
+    color: #5c3c1a;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.cardRecursosContenido a:hover {
+    text-decoration: underline;
+}

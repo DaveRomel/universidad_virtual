@@ -28,3 +28,6 @@ Route::get('/Licenciatura-en-Estudios-Mexicanos', function () {
 Route::get('/Recursos-Academicos', function () {
     return view('recursosAcademicos');
 });
+Route::get('/pagina-costruccion', function () {
+    return view('PaginaConstruccion');
+});

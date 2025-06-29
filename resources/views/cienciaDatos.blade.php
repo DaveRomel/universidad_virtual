@@ -18,18 +18,18 @@ especialistas en el análisis de grandes volúmenes de datos, capaces
         <div class="botonesContenedor">
             <div class="contenedor-botones">
                 <!-- Botones -->
-                <button class="boton" onclick="mostrarContenido('perfil-aspirante')">Perfil del Aspirante</button>
-                <button class="boton" onclick="mostrarContenido('perfil-egreso')">Perfil de Egreso</button>
-                <button class="boton" onclick="mostrarContenido('campo-laboral')">Campo Laboral</button>
-                <button class="boton" onclick="mostrarContenido('ventajas-carrera')">Ventajas de estudiar esta
+                <button class="boton2" onclick="mostrarContenido('perfil-aspirante')">Perfil del Aspirante</button>
+                <button class="boton2" onclick="mostrarContenido('perfil-egreso')">Perfil de Egreso</button>
+                <button class="boton2" onclick="mostrarContenido('campo-laboral')">Campo Laboral</button>
+                <button class="boton2" onclick="mostrarContenido('ventajas-carrera')">Ventajas de estudiar esta
                     carrera</button>
-                <button class="boton" onclick="mostrarContenido('plan-estudios')">Plan de estudios</button>
-                <button class="boton" onclick="mostrarContenido('requisitos')">Requisitos para nuevo ingreso</button>
-                <button class="boton" onclick="mostrarContenido('formatos')">Formatos para inscripción y
+                <button class="boton2" onclick="mostrarContenido('plan-estudios')">Plan de estudios</button>
+                <button class="boton2" onclick="mostrarContenido('requisitos')">Requisitos para nuevo ingreso</button>
+                <button class="boton2" onclick="mostrarContenido('formatos')">Formatos para inscripción y
                     reinscripción</button>
-                <button class="boton" onclick="mostrarContenido('becas')">Becas/Titulación</button>
-                <button class="boton" onclick="mostrarContenido('profesores')">Profesores</button>
-                <button class="boton" onclick="mostrarContenido('ciclo-escolar')">Ciclo escolar</button>
+                <button class="boton2" onclick="mostrarContenido('becas')">Becas/Titulación</button>
+                <button class="boton2" onclick="mostrarContenido('profesores')">Profesores</button>
+                <button class="boton2" onclick="mostrarContenido('ciclo-escolar')">Ciclo escolar</button>
             </div>
 
             <!-- Área donde se mostrará el contenido -->

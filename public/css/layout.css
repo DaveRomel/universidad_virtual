@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
 }
 
 .encabezadoContenedor {
-    height: 150px;
+    height: 250px;
     background-color: #7e2c2c;
     display: flex;
     justify-content: center;
@@ -17,9 +17,9 @@ body::-webkit-scrollbar {
 }
 
 .logoContenedor img {
-    width: 100px;
+    width: 150px;
     height: auto; 
-    margin-top: 40px;
+    margin-top: 60px;
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -32,15 +32,16 @@ body::-webkit-scrollbar {
 
 .tituloLayout {
     color: white;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 46px;
     margin: 0;
+    margin-top: 100px;
 }
 
 .subtituloLayout {
-    color: white;
+    color: rgb(219, 214, 214);
      font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 20px;
     font-weight: 300;
 }
@@ -55,13 +56,14 @@ body::-webkit-scrollbar {
 }
 
 .nav-container {
+    height: 45px;
     display: flex;
     justify-content: right;
     align-items: center;
 }
 
 .nav-logo {
-    font-size: 20px;
+    font-size: 35px;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -73,7 +75,7 @@ body::-webkit-scrollbar {
 }
 
 .nav-link {
-    font-size: 20px;
+    font-size: 35px;
     color: white;
     text-decoration: none;
     font-weight: bold;

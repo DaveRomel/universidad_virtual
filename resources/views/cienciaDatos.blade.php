@@ -2,41 +2,48 @@
 
 @section('contenido')
 
-    <div class="VideoContenedor">
+    <div class="videoContenedor">
         <video controls>
             <source src="video1.mp4" type="video/mp4">
             Tu navegador no soporta el formato de video.
         </video>
     </div>
-    <div class="rectanguloRosa"></div>
+
     <div class="ContenedorSeccion">
-        <div class="titulo">Maestría en
- Ciencia de Datos</div>
-        <div class="descripcion"> La Universidad Virtual (UV), ofrece esta maestría en línea para formar 
+        <div class="rectanguloRosa"></div>
+        <div class="tituloOferta">Maestria en Ciencia de Datos</div>
+        <div class="descripcion"> La <strong>Universidad Virtual</strong> (UV) ofrece esta maestría en línea para formar 
 especialistas en el análisis de grandes volúmenes de datos, capaces
  de apoyar la toma de decisiones en sectores públicos y privados.</div>
         <div class="botonesContenedor">
-            <div class="contenedor-botones">
-                <!-- Botones -->
-                <button class="boton2" onclick="mostrarContenido('perfil-aspirante')">Perfil del Aspirante</button>
-                <button class="boton2" onclick="mostrarContenido('perfil-egreso')">Perfil de Egreso</button>
-                <button class="boton2" onclick="mostrarContenido('campo-laboral')">Campo Laboral</button>
-                <button class="boton2" onclick="mostrarContenido('ventajas-carrera')">Ventajas de estudiar esta
+            <div class="fila-botones">
+                <button class="boton2" onclick="toggleContenido('perfil-aspirante-maestria')">Perfil del Aspirante</button>
+                <button class="boton2" onclick="toggleContenido('perfil-egreso-maestria')">Perfil de Egreso</button>
+                <button class="boton2" onclick="toggleContenido('campo-laboral-maestria')">Campo Laboral</button>
+                <button class="boton2" onclick="toggleContenido('ventajas-carrera-maestria')">Ventajas de estudiar esta
                     carrera</button>
-                <button class="boton2" onclick="mostrarContenido('plan-estudios')">Plan de estudios</button>
-                <button class="boton2" onclick="mostrarContenido('requisitos')">Requisitos para nuevo ingreso</button>
-                <button class="boton2" onclick="mostrarContenido('formatos')">Formatos para inscripción y
+                <button class="boton2" onclick="toggleContenido('plan-estudios-maestria')">Plan de estudios</button>
+            </div>
+
+            <div class="linea-divisoria" id="lineaDivisoria"></div>
+            <!-- Contenido dinámico -->
+            <div id="contenidoOferta" class="contenidoOferta" style="display: none;">
+                <!-- Aquí se inyectará el texto -->
+            </div>
+
+            <div class="fila-botones">
+                <button class="boton2" onclick="toggleContenido('requisitos-maestria')">Requisitos para nuevo ingreso</button>
+                <button class="boton2" onclick="toggleContenido('formatos-maestria')">Formatos para inscripción y
                     reinscripción</button>
-                <button class="boton2" onclick="mostrarContenido('becas')">Becas/Titulación</button>
-                <button class="boton2" onclick="mostrarContenido('profesores')">Profesores</button>
-                <button class="boton2" onclick="mostrarContenido('ciclo-escolar')">Ciclo escolar</button>
+                <button class="boton2" onclick="toggleContenido('becas-maestria')">Becas/Titulación</button>
+                <button class="boton2" onclick="toggleContenido('profesores-maestria')">Profesores</button>
+                <button class="boton2" onclick="toggleContenido('ciclo-escolar-maestria')">Ciclo escolar</button>
             </div>
-
-            <!-- Área donde se mostrará el contenido -->
-            <div class="contenido">
-            </div>
-
         </div>
+
+
+
+
     </div>
 
 @endsection

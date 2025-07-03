@@ -2,41 +2,49 @@
 
 @section('contenido')
 
-    <div class="VideoContenedor">
+    <div class="videoContenedor">
         <video controls>
             <source src="video1.mp4" type="video/mp4">
             Tu navegador no soporta el formato de video.
         </video>
     </div>
-    <div class="rectanguloRosa"></div>
+
     <div class="ContenedorSeccion">
-        <div class="titulo">Licenciatura en
+        <div class="rectanguloRosa"></div>
+        <div class="tituloOferta">Licenciatura en
             Estudios Mexicanos</div>
-        <div class="descripcion"> La Universidad Virtual (UV) a través de su modalidad en línea, ofrece la
+        <div class="descripcion"> La <strong>Universidad Virtual</strong> (UV) a través de su modalidad en línea, ofrece la
             Licenciatura en Estudios Mexicanos, orientada al fortalecimiento cultural,
             la identidad nacional y la proyección profesional de sus egresados</div>
         <div class="botonesContenedor">
-            <div class="contenedor-botones">
-                <!-- Botones -->
-                <button class="boton2" onclick="mostrarContenido('perfil-aspirante')">Perfil del Aspirante</button>
-                <button class="boton2" onclick="mostrarContenido('perfil-egreso')">Perfil de Egreso</button>
-                <button class="boton2" onclick="mostrarContenido('campo-laboral')">Campo Laboral</button>
-                <button class="boton2" onclick="mostrarContenido('ventajas-carrera')">Ventajas de estudiar esta
+            <div class="fila-botones">
+                <button class="boton2" onclick="toggleContenido('perfil-aspirante-licenciatura')">Perfil del Aspirante</button>
+                <button class="boton2" onclick="toggleContenido('perfil-egreso-licenciatura')">Perfil de Egreso</button>
+                <button class="boton2" onclick="toggleContenido('campo-laboral-licenciatura')">Campo Laboral</button>
+                <button class="boton2" onclick="toggleContenido('ventajas-carrera-licenciatura')">Ventajas de estudiar esta
                     carrera</button>
-                <button class="boton2" onclick="mostrarContenido('plan-estudios')">Plan de estudios</button>
-                <button class="boton2" onclick="mostrarContenido('requisitos')">Requisitos para nuevo ingreso</button>
-                <button class="boton2" onclick="mostrarContenido('formatos')">Formatos para inscripción y
+                <button class="boton2" onclick="toggleContenido('plan-estudios-licenciatura')">Plan de estudios</button>
+            </div>
+
+            <div class="linea-divisoria" id="lineaDivisoria"></div>
+            <!-- Contenido dinámico -->
+            <div id="contenidoOferta" class="contenidoOferta" style="display: none;">
+                <!-- Aquí se inyectará el texto -->
+            </div>
+
+            <div class="fila-botones">
+                <button class="boton2" onclick="toggleContenido('requisitos-licenciatura')">Requisitos para nuevo ingreso</button>
+                <button class="boton2" onclick="toggleContenido('formatos-licenciatura')">Formatos para inscripción y
                     reinscripción</button>
-                <button class="boton2" onclick="mostrarContenido('becas')">Becas/Titulación</button>
-                <button class="boton2" onclick="mostrarContenido('profesores')">Profesores</button>
-                <button class="boton2" onclick="mostrarContenido('ciclo-escolar')">Ciclo escolar</button>
+                <button class="boton2" onclick="toggleContenido('becas-licenciatura')">Becas/Titulación</button>
+                <button class="boton2" onclick="toggleContenido('profesores-licenciatura')">Profesores</button>
+                <button class="boton2" onclick="toggleContenido('ciclo-escolar-licenciatura')">Ciclo escolar</button>
             </div>
-
-            <!-- Área donde se mostrará el contenido -->
-            <div class="contenido">
-            </div>
-
         </div>
+
+
+
+
     </div>
 
 @endsection

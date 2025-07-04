@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ asset('css/inicio.css') }}">
     <link rel="stylesheet" href="{{ asset('css/oferta.css') }}">
     <link rel="stylesheet" href="{{ asset('css/contactanos.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/recurososAcademicos.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/recursosAcademicos.css') }}">
 
 </head>
 

@@ -1,0 +1,73 @@
+/* Contenedor principal para los buscadores académicos */
+.buscadoresContenedor {
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+/* Título de la sección */
+.titulo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #574439;
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+/* Estilo del texto debajo del título */
+.texto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #363233;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: -100px;
+    margin-left: 600px;
+}
+
+
+.buscadoresContenedor ol {
+    list-style-type: decimal; 
+    padding-left: 20px; 
+}
+
+.buscadoresContenedor li {
+    margin-bottom: 10px; 
+}
+
+
+.buscadoresContenedor strong {
+    font-weight: bold;
+}
+
+.apoyoContenedor {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+.texto a {
+    text-decoration: none;
+    color: #2422b9;
+    font-weight: bold;
+}
+
+.texto a:hover {
+    text-decoration: underline;
+}
+
+
+.apoyoContenedor ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.apoyoContenedor li {
+    margin-bottom: 10px;
+}
+
+.apoyoContenedor strong {
+    font-weight: bold;
+}

@@ -134,30 +134,25 @@
             útiles para la elaboración de tesis.</div>
         <div class="cardRacursosContenedor">
             <div class="cardRecursosContenido">
-                <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
-                <a href="#">
+                <img src="\imagenes\logo_rep.png" alt="logo_rep">
+                <a href="http://repositorio.utm.mx:8080/">
+
                     <p>Repositorio UTM</p>
                 </a>
             </div>
 
 
             <div class="cardRecursosContenido">
-                <video controls>
-                    <source src="video1.mp4" type="video/mp4">
-                    Tu navegador no soporta el formato de video.
-                </video>
-                <a href="">
-                    <p>Como grabar con AES</p>
+                <img src="\imagenes\play.png" alt="play">
+                 <a href="">
+                    <p>Como grabar con OBS</p>
                 </a>
 
             </div>
 
 
             <div class="cardRecursosContenido">
-                <video controls>
-                    <source src="video2.mp4" type="video/mp4">
-                    Tu navegador no soporta el formato de video.
-                </video>
+              <img src="\imagenes\play.png" alt="play">
                 <a href="">
                     <p>Uso de la tableta gráfica</p>
                 </a>

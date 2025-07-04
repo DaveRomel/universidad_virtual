@@ -1,3 +1,157 @@
-.contactanosContenedor{
-    
+/******************* Contactos *******************/
+/* Contenedor principal de Contactos */
+.contactosContenedor {
+    margin-top: 100px;
+    margin-left: 70px;
+    max-width: 700px;
+    width: 80%;
+}
+
+/* Título */
+.tituloContactanos {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #7e2c2c;
+    margin-bottom: 10px;
+}
+
+/* Descripción de la sección */
+.descripcionContactanos {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #3a241b;
+    text-align: justify;
+    margin-bottom: 30px;
+    width: 400px;
+}
+
+.informacionContenedorContactanos {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    width: 100%;
+    margin-top: -120px;
+    margin-left: 450px;
+
+}
+
+#Telefonos {
+    min-width: 200px;
+}
+
+.informacionItem {
+    flex: 1;
+    min-width: 300px;
+    max-width: 33%;
+    box-sizing: border-box;
+}
+
+.subtituloContactanos {
+    font-weight: bold;
+    color: #1d0707;
+    text-align: left;
+    font-size: 25px;
+}
+
+.textoInformacionContactanos {
+    font-size: 22px;
+    color: #1d0707;
+    text-align: left;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+#centrado {
+    text-align: center;
+}
+
+/******************* Directorio *******************/
+.directorioContenedor {
+    margin-top: 150px;
+    margin-left: 70px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.informacionItemDirectorio {
+    flex: 1;
+    min-width: 500px;
+    max-width: 33%;
+    box-sizing: border-box;
+}
+
+.informacionContenedorDirectorio {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 80%;
+    margin-top: -120px;
+    margin-left: 450px;
+    flex-wrap: wrap;
+}
+
+#telefono {
+    margin-top: -280px;
+    margin-left: 520px;
+}
+
+/******************* Redes Sociales *******************/
+.redesContenedor {
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.informacionRedesContenedor {
+    margin-top: -150px;
+    margin-left: 500px;
+    display: flex;
+    gap: 10px;
+}
+
+.informacionRedesContenedor img {
+    width: 50px;
+    height: auto;
+}
+
+.subtituloRedes {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #3b0c0c;
+    text-align: left;
+    font-size: 25px;
+}
+
+/******************* Sitios de Interés *******************/
+.sitiosContenedor {
+    margin-top: 200px;
+    margin-left: 70px;
+    margin-bottom: 150px;
+
+}
+
+.informacionSitiosContenedor {
+    margin-top: -150px;
+    margin-left: 500px;
+}
+
+.itemSitios {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.itemSitios img {
+    width: 60px;
+    height: auto;
+    border: 1px solid #c68c3e;
+    border-radius: 50px;
+}
+
+.subtituloSitios {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3b0c0c;
+    text-align: left;
+    font-size: 25px;
 }

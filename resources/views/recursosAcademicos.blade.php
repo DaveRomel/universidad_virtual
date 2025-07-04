@@ -2,7 +2,7 @@
 
 @section('contenido')
 
-    <div class="buscadoresContenedor">
+    <div class="buscadoresContenedor" id="buscadoresAcademicos" >
         <div class="titulo">Buscadores académicos</div>
         <div class="texto">
             <ol>
@@ -54,7 +54,7 @@
             </ol>
         </div>
     </div>
-    <div class="apoyoContenedor">
+    <div class="apoyoContenedor" id="apoyoTesis">
         <div class="titulo">Apoyo <br> para tesis</div>
         <div class="texto">
             <ol>

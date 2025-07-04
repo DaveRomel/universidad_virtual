@@ -107,7 +107,8 @@
             el entorno y por medio de su Universidad Virtual ofrece la Licenciatura en
             Estudios Mexicanos y la Maestría en Análisis de Datos</div>
     </div>
-    <div class="seccionContenedor">
+    <div id="ofertaEducativa"  style="height: 50px;"></div>
+    <div class="seccionContenedor" >
         <div class="subtituloInicio">Oferta educativa</div>
         <div class="cardOfertaContenedor">
             <div class="OfertacardContenido">
@@ -162,7 +163,7 @@
 
             <div class="cardRecursosContenido">
                 <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
-                <a href="{{ url('/Recursos-Academicos') }}">
+               <a href="{{ url('/Recursos-Academicos') . '#buscadoresAcademicos' }}">
                     <p>Apoyo para tesis</p>
                 </a>
 
@@ -171,7 +172,7 @@
 
             <div class="cardRecursosContenido">
                 <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
-                <a href="{{ url('/Recursos-Academicos') }}">
+                <a href="{{ url('/Recursos-Academicos') . '#apoyoTesis' }}">
                     <p>Buscadores académicos</p>
                 </a>
 

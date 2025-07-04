@@ -37,9 +37,9 @@
 
     <nav class="nav">
     <div class="nav-container">
-        <a class="nav-logo" href="#">Inicio</a>
+        <a class="nav-logo" href="/">Inicio</a>
         <div class="nav-links">
-            <a class="nav-link" href="#">Oferta académica</a>
+            <a class="nav-link" href="#ofertaEducativa">Oferta académica</a>
             <a class="nav-link" href="{{ url('/contactanos') }}">Contáctanos</a>
         </div>
     </div>

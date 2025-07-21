@@ -1,22 +1,47 @@
+/*//////////////////////////Fuentes/////////////////////////////////////////////*/
+
+@font-face {
+    font-family: 'LtCushionmedium';
+    src: url('/fuentes/LTCushion-Medium.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppinsmedium';
+    src: url('/fuentes/Poppins-Medium.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppinslight';
+    src: url('/fuentes/Poppins-Light.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nunito';
+    src: url('/fuentes/Nunito-Regular.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+/*//////////////////////////////////////////*/
+
 .tituloInicio{
-    margin-top: 20px;
+    margin-top: 60px;
     display: flex;
     justify-content: center; 
     
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     color: #7e2c2c;
 }
 .subtituloInicio{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'LtCushionmedium', sans-serif;
     font-size: 40px;
     color: #1d0707;
-
-
     margin-left: 50px;
 }
 .textoInicio{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'nunito', sans-serif;
     font-weight: 400;
     font-size: 23px;
     color: #1d0707;
@@ -37,17 +62,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
     margin: 20px;
     margin-top: 40px;
 }
 
 .cardNovedades {
     border: 2px solid #c68c3e; /* Borde dorado */
-    width: 100px;
+    width: 120px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:  space-between;;
     padding: 5px;
     background-color: white;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -59,22 +84,24 @@
 }
 
 .cardNovedadesTitulo {
-    font-size: 12px;
-    font-weight: bold;
-    color: #5c3c1a; /* Color café oscuro */
+    font-family: 'Poppinsmedium', sans-serif;
+    font-size: 16px;
+    
+    color: #5c3c1a; 
     text-align: center;
 }
 
 .cardNovedadesSubtitulo {
-    font-size: 10px;
-    color: #7e2c2c; /* Color vino */
+     font-family: 'LtCushionmedium', sans-serif;
+    font-size: 14px;
+    color: #7e2c2c; 
     margin-bottom: 10px;
     text-align: center;
 }
 
 .cardNovedades img {
-     width: 50px;
-    height: 50px;
+     width: 72px;
+    height: auto;
     object-fit: cover;
     border-radius: 4px;
     margin: 0 auto; 
@@ -82,18 +109,21 @@
 
 }
 
-.boton {
-    width: 55px;
-    display: inline-block;
+.botonCardNovedades {
+   
+    width: 80px; 
+    display: block;
     text-align: center;
-    padding: 3px 10px;
+    font-family: 'nunito', sans-serif;
+    font-size: 7pt;
+    padding: 1px 5px;
     border: 2px solid #c68c3e;
     color: #5c3c1a;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
-    font-size: 10px;
-    margin-top: 5px;
+     margin-top: 10px;
+     margin-left: 12px;
 }
 
 .boton:hover {
@@ -106,15 +136,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 60px;
     margin-left: 400px;
-    margin-top: -50px;
+    margin-top: -150px;
+    margin-bottom: 30px;
 }
 
 .OfertacardContenido {
     border: 1px solid #c68c3e; 
-    width: 300px;
-    height: 400px;
+    width: 280px;
+    height: 430px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -129,7 +160,7 @@
 
 .OfertacardContenido img {
     width: 100%;
-    height: 300px;
+    height: 340px;
     object-fit: cover;
     border-bottom: 1px solid #c68c3e;
 }
@@ -140,21 +171,25 @@
 }
 
 .CardTituloOferta {
+    font-family: 'LtCushionmedium', sans-serif;
     font-size: 18px;
     color: #7e2c2c;
     margin-bottom: 10px;
-    font-weight: bold;
+    
 }
 
 .boton {
-    display: inline-block;
-    padding: 6px 20px;
+    margin-left: 170px;
+    margin-bottom: -10px;
+    padding: 3px 25px;
     border: 1px solid #c68c3e;
     color: #5c3c1a;
     text-decoration: none;
     border-radius: 10px;
     transition: background-color 0.3s, color 0.3s;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: 'Poppinslight', sans-serif;
+
 }
 
 .boton:hover {
@@ -162,7 +197,7 @@
     color: white;
 }
 
-/*******************Recursos ******************/
+/*******************Recursos *****************
 
 .cardRacursosContenedor {
     display: flex;
@@ -207,3 +242,4 @@
 .cardRecursosContenido a:hover {
     text-decoration: underline;
 }
+*/

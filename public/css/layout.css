@@ -1,15 +1,42 @@
 body {
     margin: 0;
     padding: 0;
+    /* background-image: url('/imagenes/fondo.webp'); 
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center; */
    
       
 }
 body::-webkit-scrollbar {
     display: none;
 }
+/*//////////////////////////Fuentes/////////////////////////////////////////////*/
 
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('/fuentes/BAHNSCHRIFT.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'LtCushionmedium';
+    src: url('/fuentes/LTCushion-Medium.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppinsmedium';
+    src: url('/fuentes/Poppins-Medium.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*//////////////////////////////////////////*/
 .encabezadoContenedor {
-    height: 250px;
+    height: 230px;
     background-color: #7e2c2c;
     display: flex;
     justify-content: center;
@@ -17,7 +44,7 @@ body::-webkit-scrollbar {
 }
 
 .logoContenedor img {
-    width: 150px;
+    width: 130px;
     height: auto; 
     margin-top: 60px;
     margin-right: 100px;
@@ -32,15 +59,15 @@ body::-webkit-scrollbar {
 
 .tituloLayout {
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 46px;
+    font-family: 'LtCushionmedium', sans-serif;
+    font-size: 50px;
     margin: 0;
     margin-top: 100px;
 }
 
 .subtituloLayout {
     color: rgb(219, 214, 214);
-     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Bahnschrift', sans-serif;
     font-size: 40px;
     margin-top: 20px;
     font-weight: 300;
@@ -63,10 +90,10 @@ body::-webkit-scrollbar {
 }
 
 .nav-logo {
+    font-family: 'LtCushionmedium', sans-serif;
     font-size: 35px;
     color: white;
     text-decoration: none;
-    font-weight: bold;
     margin: 0 15px;
 }
 
@@ -75,10 +102,10 @@ body::-webkit-scrollbar {
 }
 
 .nav-link {
+    font-family: 'LtCushionmedium', sans-serif;
     font-size: 35px;
     color: white;
     text-decoration: none;
-    font-weight: bold;
     margin: 0 15px;
     transition: color 0.3s;
 }
@@ -102,13 +129,21 @@ body::-webkit-scrollbar {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .footer-item {
+    font-family: 'Poppinsmedium', sans-serif;
     text-align: center;
     margin: 10px;
-    font-size: 14px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el texto */
+    justify-content: center;
 }
 
 .footer-item div {
     margin: 4px 0;
+}
+.footer-item img {
+    width: 50px;
+    align-self: flex-start; /* Mueve la imagen hacia la derecha */
 }

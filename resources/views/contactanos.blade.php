@@ -76,11 +76,11 @@
             oferta de posgrados UTM para ampliar tu información académica.</div>
         <div class="informacionSitiosContenedor">
             <div class="itemSitios">
-                <img src="\imagenes\logo UTM fondo blanco.png" alt="logosuneo">
+                <img src="\imagenes\suneo.png" alt="logosuneo">
                 <div class="subtituloSitios">SUNEO</div>
             </div>
             <div class="itemSitios">
-                <img src="\imagenes\logo UTM fondo blanco.png" alt="logoutm">
+                <img src="\imagenes\utm contorno.png" alt="logoutm">
                 <div class="subtituloSitios">Universidad Tecnológica de la Mixteca</div>
             </div>
 

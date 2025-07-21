@@ -10,8 +10,8 @@
     </div>
 
     <div class="ContenedorSeccion">
-        <div class="rectanguloRosa"></div>
-        <div class="tituloOferta">Licenciatura en
+        <!-- <div class="rectanguloRosa"></div> -->
+        <div class="tituloOferta">Licenciatura en  
             Estudios Mexicanos</div>
         <div class="descripcion"> La <strong>Universidad Virtual</strong> (UV) a través de su modalidad en línea, ofrece la
             Licenciatura en Estudios Mexicanos, orientada al fortalecimiento cultural,

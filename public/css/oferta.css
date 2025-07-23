@@ -1,16 +1,39 @@
+/*//////////////////////////Fuentes/////////////////////////////////////////////*/
+
+
+@font-face {
+    font-family: 'LtCushionmedium';
+    src: url('/fuentes/LTCushion-Medium.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nunito';
+    src: url('/fuentes/Nunito-Regular.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+/*//////////////////////////////////////////*/
+
+
+
 /******************* Video *******************/
 .videoContenedor {
     width: 100%;
     height: 680px;
     display: flex;
     justify-content: center;
-    align-items: center;     
+    align-items: center;  
+    margin-top: 45px; 
+    
 }
 
 .videoContenedor video {
-    height: 100%;
-    width: auto; 
+    height: auto;
+    width: 100%; 
     object-fit: cover; 
+   
 }
 
 /******************* Rectángulo rosa detrás *******************/
@@ -31,15 +54,15 @@
     
     position: relative; 
     padding: 40px;
-    margin: 100px auto;
+    margin: 150px auto 0;
+
     max-width: 1200px;
     box-sizing: border-box; 
 }
 
 /******************* Título *******************/
 .tituloOferta {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'LtCushionmedium', sans-serif;
     font-size: 40px;
     color: #3a241b;
     text-align: left;
@@ -52,9 +75,9 @@
 
 /******************* Descripción *******************/
 .descripcion {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'nunito', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     color: #1d0707;
     text-align: justify;
    
@@ -85,12 +108,12 @@
     border: none;
     width: 216px;
     height: 80px;
-    padding: 12px 20px;
+    padding: 5px;
     font-size: 18px;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-
+    font-family: 'nunito', sans-serif;
 }
 
 
@@ -122,8 +145,8 @@
     margin-bottom: 10px;
     max-width: 100%;
     height: 150px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-family: 'nunito', sans-serif;
+    font-size: 16px;
     color: #3a241b;
     text-align: justify;
     display: none; /* Inicialmente oculto */

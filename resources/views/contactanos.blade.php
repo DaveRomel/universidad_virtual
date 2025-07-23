@@ -4,7 +4,7 @@
     <div class="contactosContenedor">
         <div class="tituloContactanos">Contactos</div>
         <div class="descripcionContactanos">
-            ¿Tienes dudas o necesitas apoyo? En este espacio encontrarás los medios para comunicarte con nosotros.
+            ¿Tienes dudas o necesitas apoyo? <br> En este espacio encontrarás los medios <br> para comunicarte con nosotros.
         </div>
 
         <div class="informacionContenedorContactanos">

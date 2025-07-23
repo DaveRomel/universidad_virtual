@@ -52,20 +52,23 @@
     </main>
 
     <!-- Pie de Página -->
-    <footer class="footer">
+   <footer class="footer">
     <div class="footer-container">
         <div class="footer-item">
             <img src="\imagenes\Reloj.png">
-            
-            <div>Horarios de atención</div>
-            <div>9:00 a.m.–2:00 p.m.</div>
-            <div>4:00 p.m.–7:00 p.m.</div>
+            <div>
+                <div>Horarios de atención</div>
+                <div>9:00 a.m.–2:00 p.m.</div>
+                <div>4:00 p.m.–7:00 p.m.</div>
+            </div>
         </div>
         <div class="footer-item">
             <img src="\imagenes\ubicación.png">
-            <div>Av. Dr. Modesto Seara Vázquez,<br>
+            <div>
+                Av. Dr. Modesto Seara Vázquez,<br>
                 No.1, Acatlima. CP 69004<br>
-                Huajuapan de León, Oaxaca.</div>
+                Huajuapan de León, Oaxaca.
+            </div>
         </div>
         <div class="footer-item">
             <div>Aviso de Privacidad</div>

@@ -3,8 +3,8 @@
 @section('contenido')
 
     <div class="videoContenedor">
-        <video controls>
-            <source src="video1.mp4" type="video/mp4">
+        <video controls autoplay muted playsinline>
+            <source src="\videos\Cortinilla de Ciencia de datos.mp4" type="video/mp4">
             Tu navegador no soporta el formato de video.
         </video>
     </div>

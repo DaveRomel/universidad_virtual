@@ -1,4 +1,26 @@
 /******************* Contactos *******************/
+/*//////////////////////////Fuentes/////////////////////////////////////////////*/
+
+
+@font-face {
+    font-family: 'LtCushionmedium';
+    src: url('/fuentes/LTCushion-Medium.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppinsmedium';
+    src: url('/fuentes/Poppins-Medium.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nunito';
+    src: url('/fuentes/Nunito-Regular.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+/*//////////////////////////////////////////*/
 /* Contenedor principal de Contactos */
 .contactosContenedor {
     margin-top: 100px;
@@ -9,17 +31,16 @@
 
 /* Título */
 .tituloContactanos {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 35px;
-    font-weight: bold;
+    font-family: 'LtCushionmedium', sans-serif;
+    font-size: 40px;
     color: #7e2c2c;
     margin-bottom: 10px;
 }
 
 /* Descripción de la sección */
 .descripcionContactanos {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-family: 'nunito', sans-serif;
+    font-size: 22px;
     color: #3a241b;
     text-align: justify;
     margin-bottom: 30px;
@@ -48,14 +69,16 @@
 }
 
 .subtituloContactanos {
+    font-family: 'nunito', sans-serif;
     font-weight: bold;
     color: #1d0707;
     text-align: left;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .textoInformacionContactanos {
-    font-size: 22px;
+    font-family: 'nunito', sans-serif;
+    font-size: 20px;
     color: #1d0707;
     text-align: left;
     line-height: 1.5;
@@ -115,11 +138,12 @@
 }
 
 .subtituloRedes {
+    font-family: 'nunito', sans-serif;
     margin-top: 5px;
     font-weight: bold;
     color: #3b0c0c;
     text-align: left;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 /******************* Sitios de Interés *******************/
@@ -149,9 +173,10 @@
 }
 
 .subtituloSitios {
+    font-family: 'nunito', sans-serif;
     margin-top: 10px;
     font-weight: bold;
     color: #3b0c0c;
     text-align: left;
-    font-size: 25px;
+    font-size: 22px;
 }

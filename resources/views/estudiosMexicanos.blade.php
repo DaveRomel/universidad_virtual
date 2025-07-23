@@ -3,8 +3,8 @@
 @section('contenido')
 
     <div class="videoContenedor">
-        <video controls>
-            <source src="video1.mp4" type="video/mp4">
+        <video controls autoplay muted playsinline>
+            <source src="\videos\Cortinilla de Licenciatura en Estudios Mexicanos.mp4" type="video/mp4">
             Tu navegador no soporta el formato de video.
         </video>
     </div>
@@ -27,9 +27,9 @@
             </div>
 
             <div class="linea-divisoria" id="lineaDivisoria"></div>
-            <!-- Contenido dinámico -->
+          
             <div id="contenidoOferta" class="contenidoOferta" style="display: none;">
-                <!-- Aquí se inyectará el texto -->
+            
             </div>
 
             <div class="fila-botones">

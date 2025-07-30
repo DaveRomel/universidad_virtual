@@ -79,6 +79,7 @@
 
 </body>
 <script src="{{ asset('js/oferta.js') }}"></script>
+<script src="{{ asset('js/modalOferta.js') }}"></script>
 
 
 </html>

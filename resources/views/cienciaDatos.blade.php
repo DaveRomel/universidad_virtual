@@ -10,7 +10,12 @@
     </div>
 
     <div class="ContenedorSeccion">
-        <!-- <div class="rectanguloRosa"></div> -->
+        <div id="modalGeneral" class="modal" style="display: none;">
+            <div class="modal-contenido">
+             <span class="modal-cerrar" onclick="cerrarModal()">&times;</span>
+              <div id="modalContenido"></div>
+            </div>
+        </div>
         <div class="tituloOferta">Maestria en Ciencia de Datos</div>
         <div class="descripcion"> La <strong>Universidad Virtual</strong> (UV) ofrece esta maestría en línea para formar 
 especialistas en el análisis de grandes volúmenes de datos, capaces
@@ -20,9 +25,8 @@ especialistas en el análisis de grandes volúmenes de datos, capaces
                 <button class="boton2" onclick="toggleContenido('perfil-aspirante-maestria')">Perfil del Aspirante</button>
                 <button class="boton2" onclick="toggleContenido('perfil-egreso-maestria')">Perfil de Egreso</button>
                 <button class="boton2" onclick="toggleContenido('campo-laboral-maestria')">Campo Laboral</button>
-                <button class="boton2" onclick="toggleContenido('ventajas-carrera-maestria')">Ventajas de estudiar esta
-                    carrera</button>
-                <button class="boton2" onclick="toggleContenido('plan-estudios-maestria')">Plan de estudios</button>
+                <button class="boton2" onclick="toggleContenido('ventajas-carrera-maestria')">Ventajas de estudiar esta carrera</button>
+                <button class="boton2" onclick="abrirModal('plan-estudios-maestria')">Plan de estudios</button>
             </div>
 
             <div class="linea-divisoria" id="lineaDivisoria"></div>
@@ -32,7 +36,7 @@ especialistas en el análisis de grandes volúmenes de datos, capaces
             </div>
 
             <div class="fila-botones">
-                <button class="boton2" onclick="toggleContenido('requisitos-maestria')">Requisitos para nuevo ingreso</button>
+                <button class="boton2" onclick="abrirModal('requisitos-maestria')">Requisitos para nuevo ingreso</button>
                 <button class="boton2" onclick="toggleContenido('formatos-maestria')">Formatos para inscripción y
                     reinscripción</button>
                 <button class="boton2" onclick="toggleContenido('becas-maestria')">Becas/Titulación</button>

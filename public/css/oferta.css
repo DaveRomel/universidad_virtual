@@ -21,12 +21,9 @@
 /******************* Video *******************/
 .videoContenedor {
     width: 100%;
-    height: 680px;
-    display: flex;
+    height: auto;
     justify-content: center;
     align-items: center;  
-    margin-top: 45px; 
-    
 }
 
 .videoContenedor video {
@@ -36,26 +33,61 @@
    
 }
 
-/******************* Rectángulo rosa detrás *******************/
-.rectanguloRosa {
-    margin-left: 150px;
-    position: absolute; 
-    top: 0;
-    left: 0;
-    width: 75%;
-    height: 100%;
-    background-color: #fde8e8;
-    z-index: -1; 
-    border: 1px dashed #7e2c2c; 
+/******************* Modal  *******************/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-contenido {
+  background-color: #ffffff;
+  border: 1px solid #c68c3e;
+  border-radius: 8px;
+  padding: 25px;
+  max-width: 1000px;
+  width: 90%;
+  position: relative;
+  font-family: 'nunito', sans-serif;
+  font-size: 14px;
+  color: #58463A;
+  text-align: justify;
+}
+
+.modal-cerrar {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: #58463A;
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #c68c3e;
 }
 
 /******************* Contenedor general *******************/
 .ContenedorSeccion {
-    
-    position: relative; 
     padding: 40px;
-    margin: 150px auto 0;
-
+    margin:150px auto 0;
     max-width: 1200px;
     box-sizing: border-box; 
 }
@@ -64,7 +96,7 @@
 .tituloOferta {
     font-family: 'LtCushionmedium', sans-serif;
     font-size: 40px;
-    color: #3a241b;
+    color: #58463A;
     text-align: left;
     margin-top: -90px;
     margin-left: -50px;
@@ -78,7 +110,7 @@
     font-family: 'nunito', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #1d0707;
+    color: #58463A;
     text-align: justify;
    
 
@@ -140,16 +172,15 @@
     background-color: white;
     border: 1px solid #c68c3e;
     border-radius: 8px;
-    padding: 20px;
+    padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width: 100%;
-    height: 150px;
+    height: 180px;
     font-family: 'nunito', sans-serif;
-    font-size: 16px;
-    color: #3a241b;
+    font-size: 14px;
+    color: #58463A;
     text-align: justify;
-    display: none; /* Inicialmente oculto */
+    display: none;
 }
 
 #lineaDivisoria {
@@ -158,4 +189,16 @@
     background-color: #C68c3E;
     margin: 10px 0;
     
+}
+
+
+.contenedor-dos-columnas {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.columna {
+  flex: 1;
+  min-width: 300px;
 }

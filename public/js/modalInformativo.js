@@ -24,13 +24,13 @@ admisionLicenciatura: {
 },
 calendarioEscolar: {
   titulo: "Calendario Escolar de Actividades 2025-B",
-  imagen: "/imagenes/calendario escolar.png",
+  imagen: "/imagenes/calendarioEscolar.png",
   texto: `
   `
 },
 calendarioVerano: {
   titulo: "Calendario Escolar de Actividades 2024",
-  imagen: "/imagenes/calendario verano.png",
+  imagen: "/imagenes/calendarioVerano.png",
   texto: `
   `
 },

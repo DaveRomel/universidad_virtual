@@ -39,7 +39,7 @@
     <div class="nav-container">
         <a class="nav-logo" href="/">Inicio</a>
         <div class="nav-links">
-            <a class="nav-link" href="#ofertaEducativa">Oferta académica</a>
+            <a class="nav-link" href="/" onclick="event.preventDefault(); window.location.href='/' + '#ofertaEducativa'">Oferta académica</a>
             <a class="nav-link" href="{{ url('/contactanos') }}">Contáctanos</a>
         </div>
     </div>
@@ -81,5 +81,5 @@
 <script src="{{ asset('js/oferta.js') }}"></script>
 <script src="{{ asset('js/modalOferta.js') }}"></script>
 <script src="{{ asset('js/modalInformativo.js') }}"></script>
-
+<script src="{{ asset('js/modalProfesor.js') }}"></script>
 </html>

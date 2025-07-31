@@ -51,4 +51,12 @@
 
     </div>
 
+     <div id="modalProfesor" class="modal-Profesor">
+  <div class="modal-contenido-Profesor">
+    <span class="modal-cerrar" onclick="cerrarModalProfesor()">&times;</span>
+    <h3 id="modalTitulo"></h3>
+    <img id="modalImagen" src="" alt="Imagen informativa">
+    <p id="modalTexto"></p>
+  </div>
+</div>
 @endsection

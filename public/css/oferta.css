@@ -40,6 +40,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+ 
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
   justify-content: center;
@@ -54,12 +55,31 @@
   padding: 25px;
   max-width: 1000px;
   width: 90%;
+  max-height: 350px;
   position: relative;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+ 
   font-family: 'nunito', sans-serif;
   font-size: 14px;
   color: #58463A;
   text-align: justify;
 }
+.modal-contenido::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-contenido::-webkit-scrollbar-track {
+  background: #f0e8dc; 
+  border-radius: 10px;
+}
+
+.modal-contenido::-webkit-scrollbar-thumb {
+  background-color: #c68c3e;
+  border-radius: 10px;
+  border: 2px solid #f0e8dc;
+}
+
 
 .modal-cerrar {
   position: absolute;
@@ -87,7 +107,7 @@ a:hover {
 /******************* Contenedor general *******************/
 .ContenedorSeccion {
     padding: 40px;
-    margin:150px auto 0;
+    margin:100px auto 0;
     max-width: 1200px;
     box-sizing: border-box; 
 }

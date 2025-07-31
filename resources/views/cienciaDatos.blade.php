@@ -39,7 +39,7 @@ especialistas en el análisis de grandes volúmenes de datos, capaces
                 <button class="boton2" onclick="abrirModal('requisitos-maestria')">Requisitos para nuevo ingreso</button>
                 <button class="boton2" onclick="toggleContenido('formatos-maestria')">Formatos para inscripción y
                     reinscripción</button>
-                <button class="boton2" onclick="toggleContenido('becas-maestria')">Becas/Titulación</button>
+                <!-- <button class="boton2" onclick="toggleContenido('becas-maestria')">Becas/Titulación</button> -->
                 <button class="boton2" onclick="toggleContenido('profesores-maestria')">Profesores</button>
                 <button class="boton2" onclick="toggleContenido('ciclo-escolar-maestria')">Ciclo escolar</button>
             </div>

@@ -160,7 +160,7 @@ function toggleContenido(id) {
                 break;
             case "becas-maestria":
                 contenido.innerHTML = `
-                    <p>En el marco de la gratuidad de la educación no se realizan pagos por ningun concepto (pago de ficha, insripción, reinscripción y colegiaturas mensuales)</p>
+                    <p>Contenido no disponible</p>
                 `;
                 break;
             case "profesores-maestria":

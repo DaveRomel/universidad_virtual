@@ -80,6 +80,6 @@
 </body>
 <script src="{{ asset('js/oferta.js') }}"></script>
 <script src="{{ asset('js/modalOferta.js') }}"></script>
-
+<script src="{{ asset('js/modalInformativo.js') }}"></script>
 
 </html>

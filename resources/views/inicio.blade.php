@@ -14,8 +14,8 @@
                     <div class="cardNovedadesTitulo">Admisión</div>
                     <div class="cardNovedadesSubtitulo">Mastría en Ciencia de Datos</div>
                     <br>
-                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
-                    <a href="#" class="botonCardNovedades">Ver más</a>
+                    <img src="\imagenes\posterCienciasDatos.jpg" alt="Imagen 1" >
+                    <a onclick="abrirModalInformativo('admisionMaestria')" class="botonCardNovedades">Ver más</a>
                 </div>
             </div>
 
@@ -26,8 +26,8 @@
                     <div class="cardNovedadesTitulo">Admisión</div>
                     <div class="cardNovedadesSubtitulo">Licenciatura en Estudios Mexicanos</div>
                     <br>
-                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
-                    <a href="#" class="botonCardNovedades">Ver más</a>
+                    <img src="\imagenes\admision licenciatura.png" alt="Imagen 1">
+                    <a onclick="abrirModalInformativo('admisionLicenciatura')" class="botonCardNovedades">Ver más</a>
                 </div>
             </div>
 
@@ -38,8 +38,8 @@
                     <div class="cardNovedadesTitulo">Calendario</div>
                     <div class="cardNovedadesSubtitulo">Calendario escolar 2025-B</div>
                     <br>
-                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
-                    <a href="#" class="botonCardNovedades">Ver más</a>
+                    <img src="\imagenes\calendario escolar.png" alt="Imagen 1">
+                    <a onclick="abrirModalInformativo('calendarioEscolar')" class="botonCardNovedades">Ver más</a>
                 </div>
             </div>
 
@@ -50,8 +50,8 @@
                     <div class="cardNovedadesTitulo">Calendario</div>
                     <div class="cardNovedadesSubtitulo">Curso de verano y propedéutico</div>
                     <br>
-                   <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
-                    <a href="#" class="botonCardNovedades">Ver más</a>
+                   <img src="\imagenes\calendario verano.png" alt="Imagen 1">
+                    <a onclick="abrirModalInformativo('calendarioVerano')" class="botonCardNovedades">Ver más</a>
                 </div>
             </div>
 
@@ -61,8 +61,8 @@
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Rescripción</div>
                     <div class="cardNovedadesSubtitulo">Licenciatura en Estudios Mexicanos 2025-B</div>
-                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
-                    <a href="#" class="botonCardNovedades">Ver más</a>
+                    <img src="\imagenes\Reinscripción Licenciatura.png" alt="Imagen 1">
+                    <a onclick="abrirModalInformativo('rescripcionLicenciatura')" class="botonCardNovedades">Ver más</a>
                 </div>
             </div>
 
@@ -73,8 +73,8 @@
                     <div class="cardNovedadesTitulo">Rescripción</div>
                     <div class="cardNovedadesSubtitulo">Mastría en Ciencia de Datos 2025-B</div>
                     <br>
-                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
-                    <a href="#" class="botonCardNovedades">Ver más</a>
+                    <img src="\imagenes\Reinscripción Maestría.png" alt="Imagen 1">
+                    <a onclick="abrirModalInformativo('rescripcionMaestria')" class="botonCardNovedades">Ver más</a>
                 </div>
             </div>
             <div class="cardNovedades">
@@ -83,8 +83,8 @@
                     <div class="cardNovedadesTitulo">Fechas Importantes</div>
                     <div class="cardNovedadesSubtitulo">LEM Y MCD</div>
                     
-                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
-                    <a href="#" class="botonCardNovedades">Ver más</a>
+                    <img src="\imagenes\LEM fechas importantes.png" alt="Imagen 1">
+                    <a onclick="abrirModalInformativo('fechasImportantes')" class="botonCardNovedades">Ver más</a>
 
                 </div>
             </div>
@@ -95,8 +95,8 @@
                     <div class="cardNovedadesTitulo">Horarios</div>
                     <div class="cardNovedadesSubtitulo">LEM Y MCD</div>
                     <br>
-                    <img src="\imagenes\sinImagen.jpg" alt="Imagen 1">
-                    <a href="#" class="botonCardNovedades">Ver más</a>
+                    <img src="\imagenes\horarios.png" alt="Imagen 1">
+                    <a onclick="abrirModalInformativo('horarios')" class="botonCardNovedades">Ver más</a>
 
                 </div>
             </div>
@@ -144,6 +144,15 @@
         </div>
 
     </div>
+
+    <div id="modalInformativo" class="modal-informativo">
+  <div class="modal-contenido-informativo">
+    <span class="modal-cerrar" onclick="cerrarModalInformativo()">&times;</span>
+    <h3 id="modalTitulo"></h3>
+    <img id="modalImagen" src="" alt="Imagen informativa">
+    <p id="modalTexto"></p>
+  </div>
+</div>
   <!--   <div class="seccionContenedor">
         <div class="subtituloInicio">Recursos académicos</div>
         <div class="textoInicio"> Este apartado ofrece un repositorio con tutoriales y recursos académicos

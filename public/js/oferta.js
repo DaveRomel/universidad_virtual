@@ -23,17 +23,19 @@ function toggleContenido(id) {
     switch (id) {
         case "perfil-aspirante-licenciatura":
             contenido.innerHTML = `
-                    <p>Interés por la cultura mexicana. <br>
-                    Interés por los procesos sociales, funcionamiento de la economía, sistema jurídico y político de México.
-                    Buena expresión o bien disposición para desarrollar expresarse de manera verbal y escrita.
-                    Interés para la investigación y lectura de textos relacionados temas literarios, históricos, de arte, económicos y políticos.
-                    Colaboración en el desarrollo de actividades grupales</p>
+                    <p><ul>
+                    <li>Interés por la cultura mexicana.</li><br>
+                    <li>Interés por los procesos sociales, funcionamiento de la economía, sistema jurídico y político de México.</li><br>
+                    <li>Buena expresión o bien disposición para desarrollar expresarse de manera verbal y escrita.</li><br>
+                    <li>Interés para la investigación y lectura de textos relacionados temas literarios, históricos, de arte, económicos y políticos.</li><br>
+                    <li>Colaboración en el desarrollo de actividades grupales.</li>
+                    </ul></p>
                 `;
             break;
         case "perfil-egreso-licenciatura":
             contenido.innerHTML = `
                     <p><ul> 
-                    <li>El egresado es un profesional con un amplio conocimiento de México, desde una perspectiva multidisciplinaria, que le permite comprender bien su historia y su cultura y además comprender el funcionamiento de su economía, su sistema jurídico y político.</li>
+                    <li>El egresado es un profesional con un amplio conocimiento de México, desde una perspectiva multidisciplinaria, que le permite comprender bien su historia y su cultura, además comprender el funcionamiento de su economía, su sistema jurídico y político.</li>
                     <li>El egresado será capaz de integrarse al trabajo y/o dirección de organizaciones civiles y de empresas, particularmente las que se desenvuelven en el campo de las relaciones económicas entre México y Estados Unidos.</li>
                     <li>El egresado podrá desenvolverse profesionalmente en la investigación y la docencia dentro de instituciones educativas del Nivel Medio Superior y Superior, así como en aquellos organismos dedicados al estudio, la investigación y promoción de la cultura mexicana y chicana.</li>
                     </p>                `;
@@ -50,20 +52,21 @@ function toggleContenido(id) {
             contenido.innerHTML = `
                     <p><ul> 
                     <li>Flexibilidad de horario (puede combinarse con actividades laborares, familiares, no hay horarios fijos).</li>
-                    <li>Disponibilidad de recursos 24 horas * 7 dias a la semana (puede accesar a la plataforma e-larning en cualquier momento y hacer uso o descarga de los recursos de las materias que curse).</li>
+                    <li>Disponibilidad de material las 24 horas, durante 7 días a la semana (puede accesar a la plataforma e-larning en cualquier momento y hacer uso o descarga de los recursos de las materias que curse).</li>
                     <li>Reduce distancia (favorece la comunicación sin la necesidad del traslado físico, puede estar estudiando desde la comodidad de su casa).</li>
-                    <li>Compromiso directo d el alumno (es el propio administrador y controla por lo tanto su aprendizaje y uso de tiempo).</li>
+                    <li>Compromiso directo del estudiante (es el propio administrador y controla por lo tanto su aprendizaje y uso de tiempo).</li>
                     <li>Misma oportunidad de estudiar un Programa Educativo de formación profesional como el de modalidad presencial.</li>
-                    <li>Ventajas propias de la modalidad contra el sistema tradicional presencial de edad, tiempo, lugar, actividades simultáneas,etc.</li>
+                    <li>Ventajas propias de la modalidad contra el sistema tradicional presencial de edad, tiempo, lugar, actividades simultáneas, etc.</li>
                     </p>                `;
             break;
         case "formatos-licenciatura":
             contenido.innerHTML = `
-                   <p>* Solicitud Inscripción a curso propedéutico (Aspirantes que han sido aceptados al curso propedeutico)<a href="/documentos/SIPROPE.pdf" target="_blank">(aquí)</a> <br>
-                    * Solicitud Inscripción a primer semestre <a href="/documentos/SI.pdf" target="_blank">(aquí)</a>  <br>
-                    * Solicitud Reinscripción <a href="/documentos/SR.pdf" target="_blank">(aquí)</a>  <br>
-                    * Solicitud Reinscipción por materias <a href="/documentos/SIRM.pdf" target="_blank">(aquí)  </a>  <br>
-                    * Solicitud Inscripción a primer semestre <a href="/documentos/SCVERANO.pdf" target="_blank">(aquí)</a> </p> 
+                   <p><ul>
+                    <li>Solicitud Inscripción a curso propedéutico (Aspirantes que han sido aceptados al curso propedeutico)<a href="/documentos/SIPROPE.pdf" target="_blank">(aquí)</a> <br>
+                    <li>Solicitud Inscripción a primer semestre <a href="/documentos/SI.pdf" target="_blank">(aquí)</a>  <br>
+                    <li>Solicitud Reinscripción <a href="/documentos/SR.pdf" target="_blank">(aquí)</a>  <br>
+                    <li>Solicitud Reinscipción por materias <a href="/documentos/SIRM.pdf" target="_blank">(aquí)  </a>  <br>
+                    <li>Solicitud Inscripción a primer semestre <a href="/documentos/SCVERANO.pdf" target="_blank">(aquí)</a> </ul></p> 
                 `;
             break;
         case "becas-licenciatura":
@@ -95,14 +98,14 @@ function toggleContenido(id) {
             contenido.innerHTML = `
                     <p>
                     <ul> 
-                    <li> El curso propedeutico tiene una duración de 7 semanas, este se cursa en el periodo agosto- septiembre.</li>
-                    <li> La carrera tiene una duración de 4 años, son 2 semestres anuales, el primer periodo es de octubre- febrero y el segundo periodo de marzo-julio.</li>
+                    <li> El curso propedeutico tiene una duración de 3 semanas, este se cursa en el periodo julio - agosto.</li>
+                    <li> La carrera tiene una duración de 4 años, son 2 semestres anuales, el primer periodo es de agosto - diciembre y el segundo periodo de febrero - mayo.</li>
                     </ul>
                    </p>
                 `;
             break;
 
-        /*/////////////////////////////////////maestria ///////////////////////////////////// */
+/*/////////////////////////////////////maestria ///////////////////////////////////// */
 
         case "perfil-aspirante-maestria":
             contenido.innerHTML = `
@@ -142,7 +145,7 @@ function toggleContenido(id) {
                     <p>
                     <ul>
                     <li>Flexibilidad de horario (puede combinarse con actividades laborales, familiares), ya que no hay horarios fijos.</li>
-                    <li>Disponibilidad de recursos (clases grabadas, material, lecturas, tareas, etcétera) los 7 días a la semana, durante las 24 horas (puede acceder a la plataforma e-larning en cualquier momento y hacer uso o descarga de los recursos de las materias que curse).</li>
+                    <li>Disponibilidad de material (clases grabadas, material, lecturas, tareas, etcétera) los 7 días a la semana, durante las 24 horas (puede acceder a la plataforma e-larning en cualquier momento y hacer uso o descarga de los recursos de las materias que curse).</li>
                     <li>Reduce distancia (favorece la comunicación sin la necesidad del traslado físico, puede estar estudiando desde la comodidad de su hogar).</li>
                     <li>Compromiso directo del alumno (es el propio administrador y controla por lo tanto su aprendizaje y uso de tiempo).</li>
                     <li>Ventajas propias de la modalidad a distancia contra el sistema tradicional (presencial), tiempo, lugar, actividades simultáneas, etc.</li>

@@ -144,15 +144,13 @@ const contenidosModal = {
 
   <h5>Requisitos para la solicitud de ficha</h5>
   <p>Los documentos del 1 al 4 deben estar en formato digital para subir a la plataforma:</p>
-  <ul>
-    <li>1.- Acta de nacimiento</li>
-    <li>2.- Certificado de bachillerato (legalizado si lo requiere) o constancia de estudios con promedio, área de conocimiento y especialidad</li>
-    <li>3.- CURP</li>
-    <li>4.- Fotografía digital tamaño infantil (blanco y negro, de frente, rostro serio, frente y orejas descubiertas, fondo blanco)</li>
-    <li>5.- Solicitud de admisión <a href="/documentos/SolicitudLicenciatura.docx" download>(descargar)</a> (se envía por correo, no se carga en la plataforma)</li>
-    <li>6.- Carta de exposición de motivos (enviar por correo electrónico, no se carga en la plataforma)</li>
-    <li>7.- Aunque no hay examen de admisión, la plataforma solicitará elegir fecha y sede. Selecciona el <strong>01 de julio del 2025</strong> y sede <strong>UTM</strong>.</li>
-  </ul>
+    1.- Acta de nacimiento.<br>
+    2.- Certificado de bachillerato (legalizado si lo requiere) o constancia de estudios con promedio, área de conocimiento y especialidad.<br>
+    3.- CURP.<br>
+    4.- Fotografía digital tamaño infantil (blanco y negro, de frente, rostro serio, frente y orejas descubiertas, fondo blanco).<br>
+    5.- Solicitud de admisión <a href="/documentos/SolicitudLicenciatura.docx" download>(descargar)</a> (se envía por correo, no se carga en la plataforma).<br>
+    6.- Carta de exposición de motivos (enviar por correo electrónico, no se carga en la plataforma).<br>
+    7.- Aunque no hay examen de admisión, la plataforma solicitará elegir fecha y sede. Selecciona el <strong>01 de julio del 2025</strong> y sede <strong>UTM</strong>.<br>
 
   <p>Para inscripción al primer semestre, se le solicitará la documentación en original.</p>
 `

@@ -15,10 +15,10 @@ admisionLicenciatura: {
   imagen: "",
   texto: `
    Documentos LEM: <a href="/Licenciatura-en-Estudios-Mexicanos" target="_blank">Aquí</a><br>
-   Recepción de Documentación: 14 de febrero al 25 de junio de 2025<br> 
-   Inscripción a curso propedeutico: 24 al 25 de Julio de 2025<br>
-   Inicio del curso propedeutico: 28 de Julio de 2025<br>
-   Fin de curso propedeutico: 20 de agosto de 2025<br>
+   Recepción de documentación: 14 de febrero al 25 de junio de 2025<br> 
+   Inscripción a curso propedéutico: 24 al 25 de julio de 2025<br>
+   Inicio del curso propedéutico: 28 de julio de 2025<br>
+   Fin de curso propedéutico: 20 de agosto de 2025<br>
    Los documentos pueden ser en formato digital para los trámites del curso propedéutico y puede enviarlos a los siguientes correos: info@virtual.utm.mx o univirtual@gs.utm.mx
   `
 },
@@ -49,7 +49,7 @@ rescripcionMaestria: {
   imagen: "",
   texto: `
     Documentos MCD: <a href="/Maestria-En-Ciencia-De-Datos" target="_blank">Aquí</a><br>
-    Recepción de Documentación: 15 al 18 de julio de 2024.<br>
+    Recepción de documentación: 15 al 18 de julio de 2024.<br>
     Entrevista en línea: 15 al 19 de julio de 2024.<br>
     Examen de ubicación: 19 de julio 2024.<br>
     Inscripción al curso propedéutico: 22 al 29 de julio de 2024.<br>

@@ -96,8 +96,8 @@
                     <div class="cardNovedadesSubtitulo">LEM Y MCD</div>
                     <br>
                     <img src="\imagenes\horarios.png" alt="Imagen 1">
-                    <a onclick="abrirModalInformativo('horarios')" class="botonCardNovedades">Ver más</a>
-
+                    <!--<a onclick="abrirModalInformativo('horarios')" class="botonCardNovedades">Ver más</a>-->
+                    <a href="https://www.utm.mx/~horarios" class="botonCardNovedades">Ver más</a>
                 </div>
             </div>
             <div class="cardNovedades">
@@ -115,12 +115,12 @@
     </div>
    
     <div class="seccionContenedor">
-        <div class="subtituloInicio">¿Quienes somos?</div>
+        <div class="subtituloInicio">¿Quiénes somos?</div>
         <div class="textoInicio"> El <b>SUNEO</b> es un sistema que descentraliza la educación superior en Oaxaca
             y promueve la excelencia en docencia, investigación y desarrollo. La <b>UTM</b>,
             como parte del sistema, impulsa conocimiento e innovación para fortalecer
             el entorno y por medio de su <b>Universidad Virtual</b> ofrece la Licenciatura en
-            Estudios Mexicanos y la Maestría en Análisis de Datos</div>
+            Estudios Mexicanos y la Maestría en Ciencia de Datos</div>
     </div>
     <div id="ofertaEducativa"  style="height: 50px;"></div>
     <div class="seccionContenedor" >
@@ -146,13 +146,13 @@
     </div>
 
     <div id="modalInformativo" class="modal-informativo">
-  <div class="modal-contenido-informativo">
-    <span class="modal-cerrar" onclick="cerrarModalInformativo()">&times;</span>
-    <h3 id="modalTitulo"></h3>
-    <img id="modalImagen" src="" alt="Imagen informativa">
-    <p id="modalTexto"></p>
-  </div>
-</div>
+        <div class="modal-contenido-informativo">
+            <span class="modal-cerrar" onclick="cerrarModalInformativo()">&times;</span>
+            <h3 id="modalTitulo"></h3>
+            <img id="modalImagen" src="" alt="Imagen informativa">
+            <p id="modalTexto"></p>
+        </div>
+    </div>
   <!--   <div class="seccionContenedor">
         <div class="subtituloInicio">Recursos académicos</div>
         <div class="textoInicio"> Este apartado ofrece un repositorio con tutoriales y recursos académicos

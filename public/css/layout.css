@@ -36,43 +36,71 @@ body::-webkit-scrollbar {
 
 /*//////////////////////////////////////////*/
 .encabezadoContenedor {
-    height: 230px;
-    background-color: #7e2c2c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: auto;
+  background-color: #7e2c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  padding: 20px;
+  text-align: center;
 }
 
 .logoContenedor img {
-    width: 130px;
-    height: auto; 
-    margin-top: 60px;
-    margin-right: 100px;
-    margin-left: 100px;
+  width: 130px;
+  height: auto;
+  margin: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .tituloSubtituloContenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 280px;
 }
 
 .tituloLayout {
-    color: white;
-    font-family: 'LtCushionmedium', sans-serif;
-    font-size: 50px;
-    margin: 0;
-    margin-top: 100px;
+  color: white;
+  font-family: 'LtCushionmedium', sans-serif;
+  font-size: 60px;
+  margin: 0;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .subtituloLayout {
-    color: rgb(219, 214, 214);
-    font-family: 'Bahnschrift', sans-serif;
-    font-size: 40px;
-    margin-top: 20px;
-    font-weight: 300;
+  color: rgb(219, 214, 214);
+  font-family: 'Bahnschrift', sans-serif;
+  font-size: 40px;
+  margin-top: 10px;
+  font-weight: 300;
+  text-align: center;
 }
 
+
+@media (max-width: 768px) {
+  .tituloLayout {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .subtituloLayout {
+    font-size: 20px;
+  }
+
+  .logoContenedor img {
+    width: 80px;
+    margin: 10px;
+  }
+
+  .encabezadoContenedor {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
 
 
 

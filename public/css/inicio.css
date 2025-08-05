@@ -30,7 +30,7 @@
     margin-top: 60px;
     display: flex;
     justify-content: center; 
-    
+    text-align: center;
     font-size: 50px;
     color: #7e2c2c;
 }
@@ -190,7 +190,6 @@
 }
 
 .boton {
-    margin-left: 170px;
     margin-bottom: -10px;
     padding: 3px 25px;
     border: 1px solid #c68c3e;

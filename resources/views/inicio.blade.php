@@ -38,10 +38,10 @@
 
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Calendario</div>
-                    <div class="cardNovedadesSubtitulo">Calendario escolar 2025-B</div>
+                    <div class="cardNovedadesSubtitulo">Calendario escolar 2025-2026</div>
                     <br>
                     <img src="\imagenes\calendarioEscolar.png" alt="Imagen 1">
-                    <a onclick="abrirModalInformativo('calendarioEscolar')" class="botonCardNovedades">Ver más</a>
+                    <a href="https://www.utm.mx/web/node/613" class="botonCardNovedades">Ver más</a>
                 </div>
             </div>
 

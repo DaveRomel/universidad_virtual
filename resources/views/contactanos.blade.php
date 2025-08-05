@@ -65,7 +65,7 @@
             importantes, programas académicos y todo lo relacionado con la Universidad Virtual.</div>
         <div class="informacionRedesContenedor">
             <img src="\imagenes\logofacebook.png" alt="logofacebook">
-            <div class="subtituloRedes">Universidad Virtual UTM</div>
+            <div class="subtituloRedes"><a href="https://www.facebook.com/UniVirtualutm">Universidad Virtual UTM</a></div>
         </div>
     </div>
 
@@ -77,11 +77,11 @@
         <div class="informacionSitiosContenedor">
             <div class="itemSitios">
                 <img src="\imagenes\suneo.png" alt="logosuneo">
-                <div class="subtituloSitios">SUNEO</div>
+                <div class="subtituloSitios"><a href="https://www.suneo.mx/web/">SUNEO</a></div>
             </div>
             <div class="itemSitios">
                 <img src="\imagenes\utm contorno.png" alt="logoutm">
-                <div class="subtituloSitios">Universidad Tecnológica de la Mixteca</div>
+                <div class="subtituloSitios"><a href="https://www.utm.mx">Universidad Tecnológica de la Mixteca</a></div>
             </div>
 
         </div>

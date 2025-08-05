@@ -53,25 +53,25 @@ NadiaRuiz: {
   imagen: "/imagenes/sinFoto.jpg",
   texto: `
   Doctora en Ciencias de Gobierno y Política por el Instituto de Ciencias de Gobierno y Desarrollo Estratégico (ICGDE) de la Benemérita Universidad Autónoma de Puebla.
-Maestría en Gobierno y Administración. Benemérita Universidad Autónoma de Puebla.
-Licenciatura en Derecho, con terminal en Derecho Económico. Benemérita Universidad Autónoma de Puebla.
+  Maestría en Gobierno y Administración. Benemérita Universidad Autónoma de Puebla.
+  Licenciatura en Derecho, con terminal en Derecho Económico. Benemérita Universidad Autónoma de Puebla.
 
-Especialista en:
+  Especialista en:
 
-* Derecho agrario y propiedad social.
+  * Derecho agrario y propiedad social.
 
-Diplomados y curso
+  Diplomados y curso
 
-* 2018.Diplomado Latinoamericano de Derechos Humanos. AUSJAL –Instituto Interamericano de Derechos Humanos .
-* 2018 Curso intensivo, Temas selectos sobre evaluación de impacto social y consulta indígena, Flacso México y CIESAS. Mérida Yucatán.
-* Curso de especialización en interculturalidad y Políticas Públicas Benemérita Universidad Autónoma de Puebla, 2015.
-*Curso "Regularización jurídica de los Cultivos Transgénicos y su incidencia en la protección al Medio Ambiente". ,Universidad de Almería, España, 2007.
+  * 2018.Diplomado Latinoamericano de Derechos Humanos. AUSJAL –Instituto Interamericano de Derechos Humanos .
+  * 2018 Curso intensivo, Temas selectos sobre evaluación de impacto social y consulta indígena, Flacso México y CIESAS. Mérida Yucatán.
+  * Curso de especialización en interculturalidad y Políticas Públicas Benemérita Universidad Autónoma de Puebla, 2015.
+  *Curso "Regularización jurídica de los Cultivos Transgénicos y su incidencia en la protección al Medio Ambiente". ,Universidad de Almería, España, 2007.
 
-Experiencia Laboral
+  Experiencia Laboral
 
-* Imparticion de clases en diversas instituciones a nivel licenciatura y maestría, como la Benemérita Universidad Autónoma de Puebla (BUAP), Ibero Puebla, Universidad Tecnológica de la Mixteca (UTM) y Centro Integral de Estudios Superiores (CIES).
-* Tribunales Agrarios Distrito 37 y 21 con sede en la ciudad de Puebla y Oaxaca adscrita a la Secretaría de Acuerdos y como Titular del área jurídica, respectivamente.
-* Actualmente profesora en la licenciatura en derecho en la facultad de Derecho y Ciencias Sociales de la BUAP.
+  * Imparticion de clases en diversas instituciones a nivel licenciatura y maestría, como la Benemérita Universidad Autónoma de Puebla (BUAP), Ibero Puebla, Universidad Tecnológica de la Mixteca (UTM) y Centro Integral de Estudios Superiores (CIES).
+  * Tribunales Agrarios Distrito 37 y 21 con sede en la ciudad de Puebla y Oaxaca adscrita a la Secretaría de Acuerdos y como Titular del área jurídica, respectivamente.
+  * Actualmente profesora en la licenciatura en derecho en la facultad de Derecho y Ciencias Sociales de la BUAP.
 
 
   `
@@ -82,22 +82,22 @@ LuzPalacios: {
   texto: `
   Maestría en Ciencias y Artes para el Diseño.
 
-Línea de Investigación e interés
+  Línea de Investigación e interés
 
-* Diseño de material didáctico, volumétrico y digital. Y Diseño e interacción para habilidades cognitivas en niños.
+  * Diseño de material didáctico, volumétrico y digital. Y Diseño e interacción para habilidades cognitivas en niños.
 
-Publicaciones de los últimos 3 años
+  Publicaciones de los últimos 3 años
 
-* José Anibal Arias-Aguilar, M. Luz Palacios-Villavicencio, Roberto Bretado-Gallegos, María Auxilio Medina Nieto, Antonio Benitez Ruiz, Verónica Rodríguez-López, Jaqueline Estrada-Bautista: Analysis of children: humanoid robot interaction to support social skills development. Interacción 2017: 10:1-10:4
-* Palacios V. M. Espinoza C. j. y Estrada B. J. (2016) Capítulo de libro: El diseño en la mejora del bienestar social de niños con discapacidad. Filosofía, arte y diseño. Oguri Campos, L.E., Valdivia, B.,López García, F., y Robles Aguilar O. A. (Eds). Diálogo en las fronteras. ISBN. 978-607-441-401-1
-* María de la Luz Palacios Villavicencio, José Aníbal Arias Aguilar, María Auxilio Medina Nieto y Teresa Ivonne Castillo Diego. (2015) Propuesta metodológica para el desarrollo de recursos didácticos con tecnologías interactivas para niños con Necesidades Educativas Especiales (NEE): redes multidisciplinarias. Academia Journals en Tecnologías. ISBN 2380-503X
+  * José Anibal Arias-Aguilar, M. Luz Palacios-Villavicencio, Roberto Bretado-Gallegos, María Auxilio Medina Nieto, Antonio Benitez Ruiz, Verónica Rodríguez-López, Jaqueline Estrada-Bautista: Analysis of children: humanoid robot interaction to support social skills development. Interacción 2017: 10:1-10:4
+  * Palacios V. M. Espinoza C. j. y Estrada B. J. (2016) Capítulo de libro: El diseño en la mejora del bienestar social de niños con discapacidad. Filosofía, arte y diseño. Oguri Campos, L.E., Valdivia, B.,López García, F., y Robles Aguilar O. A. (Eds). Diálogo en las fronteras. ISBN. 978-607-441-401-1
+  * María de la Luz Palacios Villavicencio, José Aníbal Arias Aguilar, María Auxilio Medina Nieto y Teresa Ivonne Castillo Diego. (2015) Propuesta metodológica para el desarrollo de recursos didácticos con tecnologías interactivas para niños con Necesidades Educativas Especiales (NEE): redes multidisciplinarias. Academia Journals en Tecnologías. ISBN 2380-503X
 
-3 actividades destacadas ( Distinción académica, participación como responsable en algún evento, etc. Para profesores externos incluir su trabajo(o) actual(es) y puesto).
+  3 actividades destacadas ( Distinción académica, participación como responsable en algún evento, etc. Para profesores externos incluir su trabajo(o) actual(es) y puesto).
 
 
-* Directora del Instituto de Diseño.
-* Coordinadora de Cuerpo Académico integración Multidisciplinaria del Diseño en México.
-* Certificado por realizar una destacada evaluación de un artículo enviado para publicación en revista internacional. Evaluaciones destacadas año 2015. Centro de Información Tecnológica de La Serena Chile. Scielo, Scopus y Scielo Citation Index.
+  * Directora del Instituto de Diseño.
+  * Coordinadora de Cuerpo Académico integración Multidisciplinaria del Diseño en México.
+  * Certificado por realizar una destacada evaluación de un artículo enviado para publicación en revista internacional. Evaluaciones destacadas año 2015. Centro de Información Tecnológica de La Serena Chile. Scielo, Scopus y Scielo Citation Index.
   `
 },
 AnaMaria: {
@@ -107,7 +107,7 @@ AnaMaria: {
   Sin Información
   `
 },
-DiegoMartine: {
+DiegoMartinez: {
   titulo: "Lic. Diego Martine Lozada",
   imagen: "/imagenes/sinFoto.jpg",
   texto: `
@@ -135,6 +135,27 @@ MarcosGerman: {
   Sin Información
   `
 },
+RamonAmadeo: {
+  titulo: "Dr. Ramón Amadeo Castillo Ponce",
+  imagen: "/imagenes/sinFoto.jpg",
+  texto: `
+  Sin Información
+  `
+},
+OfeliaPineda: {
+  titulo: "Lic. Ofelia Pineda Ortiz",
+  imagen: "/imagenes/sinFoto.jpg",
+  texto: `
+  Sin Información
+  `
+},
+CynthiaTorralba: {
+  titulo: "Lic. Cynthia Torralba Velasco",
+  imagen: "/imagenes/sinFoto.jpg",
+  texto: `
+  Sin Información
+  `
+}
 };
 
 // Función para abrir el modal

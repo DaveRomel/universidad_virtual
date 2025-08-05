@@ -36,14 +36,14 @@
     </header>
 
     <nav class="nav">
-    <div class="nav-container">
-        <a class="nav-logo" href="/">Inicio</a>
-        <div class="nav-links">
-            <a class="nav-link" href="/" onclick="event.preventDefault(); window.location.href='/' + '#ofertaEducativa'">Oferta académica</a>
-            <a class="nav-link" href="{{ url('/contactanos') }}">Contáctanos</a>
+        <div class="nav-container">
+            <a class="nav-link" href="/">Inicio</a>
+            <div class="nav-links">
+                <a class="nav-link" href="/" onclick="event.preventDefault(); window.location.href='/' + '#ofertaEducativa'">Oferta académica</a>
+                <a class="nav-link" href="{{ url('/contactanos') }}">Contáctanos</a>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
 
 
@@ -58,8 +58,8 @@
             <img src="\imagenes\Reloj.png">
             <div>
                 <div>Horarios de atención</div>
-                <div>9:00 a.m.–2:00 p.m.</div>
-                <div>4:00 p.m.–7:00 p.m.</div>
+                <div>9:00 a.m.– 2:00 p.m.</div>
+                <div>4:00 p.m.– 7:00 p.m.</div>
             </div>
         </div>
         <div class="footer-item">
@@ -71,7 +71,9 @@
             </div>
         </div>
         <div class="footer-item">
-            <div>Aviso de Privacidad</div>
+            <a href="{{ asset('documentos/Aviso_de_Privacidad_UVirtualUTM.pdf') }}" target="_blank" rel="noopener">
+                Aviso de Privacidad
+            </a>
         </div>
     </div>
 </footer>

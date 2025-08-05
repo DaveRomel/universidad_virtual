@@ -146,6 +146,15 @@
     font-size: 22px;
 }
 
+.subtituloRedes a{
+    font-family: 'nunito', sans-serif;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #3b0c0c;
+    text-align: left;
+    font-size: 22px;
+}
+
 /******************* Sitios de Interés *******************/
 .sitiosContenedor {
     margin-top: 200px;
@@ -173,6 +182,15 @@
 }
 
 .subtituloSitios {
+    font-family: 'nunito', sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3b0c0c;
+    text-align: left;
+    font-size: 22px;
+}
+
+.subtituloSitios a {
     font-family: 'nunito', sans-serif;
     margin-top: 10px;
     font-weight: bold;

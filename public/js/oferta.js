@@ -82,16 +82,16 @@ function toggleContenido(id) {
         case "profesores-licenciatura":
             contenido.innerHTML = `
                      <p><ul>
-  <li><a onclick="abrirModalProfesor('NadiaRuiz')">Dra. Nadia Ruiz Muños</a></li>
-  <li><a onclick="abrirModalProfesor('LuzPalacios')">DRA. María de la Luz Palacios Villavicencio</a></li>
-  <li><a onclick="abrirModalProfesor('AnaMaria')">Mtra. Ana Maria Romero Valle</a></li>
-  <li><a onclick="abrirModalProfesor('DiegoMartine')">Lic. Diego Martine Lozada</a></li>
-  <li><a onclick="abrirModalProfesor('LourdesRodriguez')">Dra. Lourdes Rodriguez Espinoza</a></li>
-  <li><a onclick="abrirModalProfesor('BravoGuzman')">M.C. Alejandro A. Bravo Guzmán</a></li>
-  <li><a onclick="abrirModalProfesor('MarcosGerman')">Ing. Marcos German Corro Ortiz</a></li>
-</ul>
+                        <li><a onclick="abrirModalProfesor('NadiaRuiz')">Dra. Nadia Ruiz Muñoz</a></li>
+                        <li><a onclick="abrirModalProfesor('RamonAmadeo')">Dr. Ramón Amadeo Castillo Ponce</a></li>
+                        <li><a onclick="abrirModalProfesor('AnaMaria')">Mtra. Ana María Romero Valle</a></li>
+                        <li><a onclick="abrirModalProfesor('OfeliaPineda')">Lic. Ofelia Pineda Ortiz</a></li>
+                        <li><a onclick="abrirModalProfesor('CynthiaTorralba')">Lic. Cynthia Torralba Velasco</a></li>
+                        <li><a onclick="abrirModalProfesor('DiegoMartinez')">Lic. Diego Martínez Lozada</a></li>
+                        <li><a onclick="abrirModalProfesor('MarcosGerman')">Ing. Marcos German Corro Ortiz</a></li>
+                      </ul>
 
-                    </p>
+                     </p>
                 `;
             break;
         case "ciclo-escolar-licenciatura":

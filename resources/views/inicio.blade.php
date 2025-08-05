@@ -6,8 +6,10 @@
     <div class="seccionContenedor">
         <div class="subtituloInicio">Novedades</div>
         <div class="textoInicio">Revisa las fechas importantes del próximo ciclo escolar, como entrega de documentos, inicio
-            de clases y curso propedéutico..</div>
+            de clases y curso propedéutico..
+        </div>
         <div class="cardNovedadesContenedor">
+            
             <div class="cardNovedades">
 
                 <div class="cardNovedadesContenido">

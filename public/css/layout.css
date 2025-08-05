@@ -91,7 +91,7 @@ body::-webkit-scrollbar {
 
 .nav-logo {
     font-family: 'LtCushionmedium', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
     margin: 0 15px;
@@ -103,7 +103,7 @@ body::-webkit-scrollbar {
 
 .nav-link {
     font-family: 'LtCushionmedium', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
     margin: 0 15px;
@@ -116,6 +116,13 @@ body::-webkit-scrollbar {
 
 /*///////////////////////////footer///////////////////////////////*/ 
 .footer {
+    background-color: #7e2c2c; 
+    color: white;
+    padding: 10px 0;
+   font-family: 'Poppinsmedium', sans-serif;
+  
+}
+.footer a{
     background-color: #7e2c2c; 
     color: white;
     padding: 10px 0;

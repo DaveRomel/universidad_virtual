@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="tituloOferta">Maestria en Ciencia de Datos</div>
-        <div class="descripcion"> La <strong>Universidad Virtual</strong> (UV) ofrece esta maestría en línea para formar 
+        <div class="descripcion"> La <strong>Universidad Virtual</strong> ofrece esta maestría en línea para formar 
 especialistas en el análisis de grandes volúmenes de datos, capaces
  de apoyar la toma de decisiones en sectores públicos y privados.</div>
         <div class="botonesContenedor">

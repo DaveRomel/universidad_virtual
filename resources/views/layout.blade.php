@@ -66,7 +66,7 @@
             <img src="\imagenes\ubicación.png">
             <div>
                 Av. Dr. Modesto Seara Vázquez,<br>
-                No.1, Acatlima. CP 69004<br>
+                No.1, Acatlima. C.P. 69004<br>
                 Huajuapan de León, Oaxaca.
             </div>
         </div>

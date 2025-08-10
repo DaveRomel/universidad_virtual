@@ -18,9 +18,9 @@
             </div>
         </div>
         <div class="tituloOferta">Licenciatura en Estudios Mexicanos</div>
-        <div class="descripcion"> La <strong>Universidad Virtual</strong> (UV) a través de su modalidad en línea, ofrece la
+        <div class="descripcion"> La <strong>Universidad Virtual</strong> a través de su modalidad en línea, ofrece la
             Licenciatura en Estudios Mexicanos, orientada al fortalecimiento cultural,
-            la identidad nacional y la proyección profesional de sus egresados</div>
+            la identidad nacional y la proyección profesional de sus egresados.</div>
         <div class="botonesContenedor">
 
             <div class="fila-botones">
@@ -28,7 +28,7 @@
                 <button class="boton2" onclick="toggleContenido('perfil-egreso-licenciatura')">Perfil de Egreso</button>
                 <button class="boton2" onclick="toggleContenido('campo-laboral-licenciatura')">Campo Laboral</button>
                 <button class="boton2" onclick="toggleContenido('ventajas-carrera-licenciatura')">Ventajas de estudiar esta carrera</button>
-                <button class="boton2" onclick="abrirModal('plan-estudios-licenciatura')">Plan de estudios</button>
+                <button class="boton2" onclick="abrirModal('plan-estudios-licenciatura')">Plan de Estudios</button>
             </div>
 
             <div class="linea-divisoria" id="lineaDivisoria"></div>

@@ -6,7 +6,7 @@
     <div class="seccionContenedor">
         <div class="subtituloInicio">Novedades</div>
         <div class="textoInicio">Revisa las fechas importantes del próximo ciclo escolar, como entrega de documentos, inicio
-            de clases y curso propedéutico..
+            de clases y curso propedéutico.
         </div>
         <div class="cardNovedadesContenedor">
             
@@ -122,7 +122,7 @@
             y promueve la excelencia en docencia, investigación y desarrollo. La <b>UTM</b>,
             como parte del sistema, impulsa conocimiento e innovación para fortalecer
             el entorno y por medio de su <b>Universidad Virtual</b> ofrece la Licenciatura en
-            Estudios Mexicanos y la Maestría en Ciencia de Datos</div>
+            Estudios Mexicanos y la Maestría en Ciencia de Datos.</div>
     </div>
     <div id="ofertaEducativa"  style="height: 50px;"></div>
     <div class="seccionContenedor" >

@@ -26,7 +26,7 @@ especialistas en el análisis de grandes volúmenes de datos, capaces
                 <button class="boton2" onclick="toggleContenido('perfil-egreso-maestria')">Perfil de Egreso</button>
                 <button class="boton2" onclick="toggleContenido('campo-laboral-maestria')">Campo Laboral</button>
                 <button class="boton2" onclick="toggleContenido('ventajas-carrera-maestria')">Ventajas de estudiar esta carrera</button>
-                <button class="boton2" onclick="abrirModal('plan-estudios-maestria')">Plan de estudios</button>
+                <button class="boton2" onclick="abrirModal('plan-estudios-maestria')">Plan de Estudios</button>
             </div>
 
             <div class="linea-divisoria" id="lineaDivisoria"></div>

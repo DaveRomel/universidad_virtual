@@ -61,7 +61,7 @@
             <div class="cardNovedades">
 
                 <div class="cardNovedadesContenido">
-                    <div class="cardNovedadesTitulo">Rescripción</div>
+                    <div class="cardNovedadesTitulo">Reinscripción</div>
                     <div class="cardNovedadesSubtitulo">Licenciatura en Estudios Mexicanos 2025-B</div>
                     <img src="\imagenes\ReinscripcionLicenciatura.png" alt="Imagen 1">
                     <a onclick="abrirModalInformativo('rescripcionLicenciatura')" class="botonCardNovedades">Ver más</a>
@@ -72,7 +72,7 @@
             <div class="cardNovedades">
 
                 <div class="cardNovedadesContenido">
-                    <div class="cardNovedadesTitulo">Rescripción</div>
+                    <div class="cardNovedadesTitulo">Reinscripción</div>
                     <div class="cardNovedadesSubtitulo">Mastría en Ciencia de Datos 2025-B</div>
                     <br>
                     <img src="\imagenes\ReinscripcionMaestria.png" alt="Imagen 1">
@@ -131,7 +131,7 @@
             <div class="OfertacardContenido">
                  <img src="\imagenes\escribiendo.jpg" alt="Imagen">
                 <div class="CardOferta">
-                    <div class="CardTituloOferta">Licenciatura de <br> estudios mexicanos</div>
+                    <div class="CardTituloOferta">Licenciatura de <br> Estudios Mexicanos</div>
                     <a href="{{ url('/Licenciatura-en-Estudios-Mexicanos') }}" class="boton">Visitar</a>
                 </div>
             </div>

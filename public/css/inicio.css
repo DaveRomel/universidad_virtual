@@ -1,212 +1,205 @@
 /*//////////////////////////Fuentes/////////////////////////////////////////////*/
 
 @font-face {
-    font-family: 'LtCushionmedium';
-    src: url('/fuentes/LTCushion-Medium.ttf') format('truetype'); 
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'LtCushionmedium';
+  src: url('/fuentes/LTCushion-Medium.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'Poppinsmedium';
-    src: url('/fuentes/Poppins-Medium.ttf') format('truetype'); 
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Poppinsmedium';
+  src: url('/fuentes/Poppins-Medium.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'Poppinslight';
-    src: url('/fuentes/Poppins-Light.ttf') format('truetype'); 
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Poppinslight';
+  src: url('/fuentes/Poppins-Light.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'nunito';
-    src: url('/fuentes/Nunito-Regular.ttf') format('truetype'); 
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'nunito';
+  src: url('/fuentes/Nunito-Regular.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
 }
 /*//////////////////////////////////////////*/
 
 .tituloInicio{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center; 
-    text-align: center;
-    font-size: 50px;
-    color: #7e2c2c;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+  font-size: 50px;
+  color: #7e2c2c;
 }
 .subtituloInicio{
-    font-family: 'LtCushionmedium', sans-serif;
-    font-size: 40px;
-    color: #1d0707;
-    margin-left: 50px;
+  font-family: 'LtCushionmedium', sans-serif;
+  font-size: 40px;
+  color: #1d0707;
+  margin-left: 50px;
 }
 .textoInicio{
-    font-family: 'nunito', sans-serif;
-    font-weight: 400;
-    font-size: 23px;
-    color: #1d0707;
-    text-align: justify;
-    margin-left: 450px;
-    width: 800px;
-    margin-top: -50px;
+  font-family: 'nunito', sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  color: #1d0707;
+  text-align: justify;
+  margin-left: 450px;
+  width: 800px;
+  margin-top: -50px;
 }
 .seccionContenedor{
-    margin-top: 100px;
-    margin-left: 50px;
-    
+  margin-top: 100px;
+  margin-left: 50px;
 }
+
 /*******************novededes******************/
 
-
 .cardNovedadesContenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5px;
-    margin: 20px;
-    margin-top: 40px;
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin: 20px;
+  margin-top: 40px;
 }
 
 .cardNovedades {
-    border: 2px solid #c68c3e; 
-    width: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items:  space-between;;
-    padding: 5px;
-    background-color: white;
-    transition: transform 0.3s, box-shadow 0.3s;
+  border: 2px solid #c68c3e; 
+  width: 120px;
+  /* corregido: distribución interna válida */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* en lugar de "align-items: space-between" */
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
+
 .cardNovedadesContenido {
   position: relative;
   height: 190px; 
-  padding-bottom: 30px; 
+  padding-bottom: 30px;  /* había que asegurar el ; */
   box-sizing: border-box;
 }
 
-
 .cardNovedades:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 .cardNovedadesTitulo {
-    font-family: 'Poppinsmedium', sans-serif;
-    font-size: 16px;
-    
-    color: #5c3c1a; 
-    text-align: center;
+  font-family: 'Poppinsmedium', sans-serif;
+  font-size: 16px;
+  color: #5c3c1a; 
+  text-align: center;
 }
 
 .cardNovedadesSubtitulo {
-     font-family: 'LtCushionmedium', sans-serif;
-    font-size: 14px;
-    color: #7e2c2c; 
-    margin-bottom: 10px;
-    text-align: center;
+  font-family: 'LtCushionmedium', sans-serif;
+  font-size: 14px;
+  color: #7e2c2c; 
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .cardNovedades img {
-    width: auto;
-    height: 72px;
-    max-width: 80%;
-    margin: 0 auto; 
-    display: block;
-    
+  width: auto;
+  height: 72px;
+  max-width: 80%;
+  margin: 0 auto; 
+  display: block;
 }
 
 .botonCardNovedades {
-    width: 80px; 
-    display: block;
-    text-align: center;
-    font-family: 'nunito', sans-serif;
-    font-size: 7pt;
-    padding: 1px 5px;
-    border: 2px solid #c68c3e;
-    color: #5c3c1a;
-    background-color: white; 
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    
+  width: 80px; 
+  display: block;
+  text-align: center;
+  font-family: 'nunito', sans-serif;
+  font-size: 7pt;
+  padding: 1px 5px;
+  border: 2px solid #c68c3e;
+  color: #5c3c1a;
+  background-color: white; 
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .botonCardNovedades:hover {
-    background-color: #c68c3e;
-    color: white;
+  background-color: #c68c3e;
+  color: white;
 }
-
 
 /*******************oferta******************/
 .cardOfertaContenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 60px;
-    margin-left: 400px;
-    margin-top: -150px;
-    margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin-left: 400px;
+  margin-top: -150px;
+  margin-bottom: 30px;
 }
 
 .OfertacardContenido {
-    border: 1px solid #c68c3e; 
-    width: 280px;
-    height: 430px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #c68c3e; 
+  width: 280px;
+  height: 430px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .OfertacardContenido:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
 .OfertacardContenido img {
-    width: 100%;
-    height: 340px;
-    object-fit: cover;
-    border-bottom: 1px solid #c68c3e;
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-bottom: 1px solid #c68c3e;
 }
 
 .CardOferta {
-    padding: 10px;
-    text-align: center;
+  padding: 10px;
+  text-align: center;
 }
 
 .CardTituloOferta {
-    font-family: 'LtCushionmedium', sans-serif;
-    font-size: 18px;
-    color: #7e2c2c;
-    margin-bottom: 10px;
-    
+  font-family: 'LtCushionmedium', sans-serif;
+  font-size: 18px;
+  color: #7e2c2c;
+  margin-bottom: 10px;
 }
 
 .boton {
-    margin-bottom: -10px;
-    padding: 3px 25px;
-    border: 1px solid #c68c3e;
-    color: #5c3c1a;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: background-color 0.3s, color 0.3s;
-    font-size: 14px;
-    font-family: 'Poppinslight', sans-serif;
-
+  margin-bottom: -10px;
+  padding: 3px 25px;
+  border: 1px solid #c68c3e;
+  color: #5c3c1a;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 14px;
+  font-family: 'Poppinslight', sans-serif;
 }
 
 .boton:hover {
-    background-color: #c68c3e;
-    color: white;
+  background-color: #c68c3e;
+  color: white;
 }
-
 
 /*////////////////////////////Modal card novedades///////////////////////////////////////*/
 .modal-informativo {
@@ -252,6 +245,122 @@
   color: #7e2c2c;
 }
 
+/* ====== SOLO MÓVIL (≤480px) — Sección Inicio ====== */
+@media (max-width: 480px){
+
+  
+  .tituloInicio{
+    font-size: 14px;
+    margin-top: 16px;
+    padding: 0 12px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .subtituloInicio{
+    font-size: 18px;
+    margin: 6px auto 0;
+    text-align: center;
+  }
+
+  .textoInicio{
+    font-size: 9px;
+    width: auto;                
+    max-width: 92%;
+    margin: 8px auto 0;         
+    text-align: center;
+  
+  }
+
+  .seccionContenedor{
+    margin-top: 24px;           
+    margin-left: 10px;             
+    padding: 0 12px;
+  }
+
+  /* ===== Novedades ===== */
+  .cardNovedadesContenedor{
+    display: grid !important;                
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 6px;
+    margin: 16px 0 0 30px;
+    padding: 0 10px;                       
+    align-items: center;
+  }
+
+  .cardNovedades{
+    width: 70% !important;
+    padding: 4px;
+  }
+
+  .cardNovedadesContenido{
+    height: 140px;           
+    padding-bottom: 18px;   
+  }
+
+  .cardNovedades img{
+    height: 48px;           
+    max-width: 80%;
+  }
+
+  .cardNovedadesTitulo{ font-size: 11px; }
+  .cardNovedadesSubtitulo{ font-size: 10px; margin-bottom: 4px; }
+
+  
+  .botonCardNovedades{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 6px;        
+    padding: 0 4px;
+    font-size: 9px;
+    line-height: 1;
+    border-width: 1px;
+    bottom: 4px;
+  }
+
+  /* ===== Oferta ===== */
+    .cardOfertaContenedor{
+    display: grid !important;
+    grid-template-columns: 1fr;      
+    justify-items: center;
+    gap: 16px;
+    margin: 16px auto 24px !important;
+    padding: 0 12px;
+  }
+
+  .OfertacardContenido{
+    width: 65% !important;
+    max-width: 340px;                
+    height: auto !important;
+  }
+
+
+  .OfertacardContenido img{
+    width: 100%;
+    height: clamp(280px, 70vw, 420px);  
+    object-fit: cover;
+  }
+ 
+  .CardOferta{ padding: 12px; }
+
+  .CardTituloOferta{ font-size: 14px; }
+  .boton{ font-size: 11px; padding: 2px 14px; }
+
+
+  .modal-contenido-informativo{
+    width: 92%;
+    max-width: 480px;
+    font-size: 13px;
+    padding: 16px;
+  }
+}
+
+/* ===== Teléfonos muy angostos (≤360px) ===== */
+@media (max-width: 360px){
+  .cardNovedadesContenedor{ grid-template-columns: repeat(2, 1fr); }
+}
+ 
 /*******************Recursos *****************
 
 .cardRacursosContenedor {

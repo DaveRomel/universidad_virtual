@@ -4,7 +4,7 @@
 
     <div class="videoContenedor">
         <video controls autoplay muted playsinline>
-            <source src="\videos\Cortinilla de Ciencia de datos.mp4" type="video/mp4">
+            <source src="\videos\Universidad_Virtual_ Maestria_en_Ciencia_de_Datos.mp4" type="video/mp4">
             Tu navegador no soporta el formato de video.
         </video>
     </div>

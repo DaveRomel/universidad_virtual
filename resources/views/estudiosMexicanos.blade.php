@@ -4,7 +4,7 @@
 
     <div class="videoContenedor">
         <video controls autoplay muted playsinline>
-            <source src="\videos\Cortinilla de Licenciatura en Estudios Mexicanos.mp4" type="video/mp4">
+            <source src="\videos\Licenciatura_en_Estudios_Mexicanos.mp4" type="video/mp4">
             Tu navegador no soporta el formato de video.
         </video>
     </div>

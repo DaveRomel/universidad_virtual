@@ -131,7 +131,7 @@
             <div class="OfertacardContenido">
                  <img src="\imagenes\escribiendo.jpg" alt="Imagen">
                 <div class="CardOferta">
-                    <div class="CardTituloOferta">Licenciatura de <br> Estudios Mexicanos</div>
+                    <div class="CardTituloOferta">Licenciatura en <br> Estudios Mexicanos</div>
                     <a href="{{ url('/Licenciatura-en-Estudios-Mexicanos') }}" class="boton">Visitar</a>
                 </div>
             </div>

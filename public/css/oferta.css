@@ -140,11 +140,13 @@ a:hover {
 }
 
 /******************* Botones *******************/
+.icono-movil {
+    display: none;
+}
 .botonesContenedor {
     margin-top: 100px;
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: column; 
     
 }
 .fila-botones {
@@ -164,6 +166,7 @@ a:hover {
     font-size: 18px;
     border-radius: 8px;
     cursor: pointer;
+    justify-content: center;
     transition: background-color 0.3s, transform 0.3s;
     font-family: 'nunito', sans-serif;
 }
@@ -267,4 +270,90 @@ a:hover {
   font-size: 22px;
   cursor: pointer;
   color: #7e2c2c;
+}
+
+/* ======== Ajustes para móviles pequeños ======== */
+@media (max-width: 480px) {
+
+  .ContenedorSeccion {
+    padding: 15px;
+    margin: 20px auto;
+  }
+
+  .tituloOferta {
+    font-size: 28px;
+    margin: 0 auto 15px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .descripcion {
+    width: 80%;
+    margin: 30px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .botonesContenedor {
+    margin-top: 25px;
+  }
+
+  .fila-botones {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+   .boton2 {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding-right: 30px;
+    height: auto;
+     font-size: 15px;
+     padding: 12px;
+  }
+
+
+  .boton2::after {
+    content: "\25BC"; 
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+  }
+
+
+  .boton2.activo::after {
+    content: "\25B2"; 
+  }
+ 
+  .contenidoOferta {
+    height: auto;
+    max-height: 320px;
+  }
+    #contenidoOferta {
+    border: 1px solid #c68c3e;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: white;
+    font-family: 'nunito', sans-serif;
+    font-size: 10px;
+    color: #58463A;
+  }
+
+
+  /* Modales adaptados al teléfono */
+  .modal-contenido, 
+  .modal-contenido-Profesor {
+    max-width: 95%;
+    max-height: 80vh;
+    font-size: 14px;
+  }
+
+  /* Opcional: línea divisoria menos ancha en móvil */
+  #lineaDivisoria {
+    display: none !important;
+  }
 }

@@ -128,17 +128,19 @@
     <div class="seccionContenedor">
         <div class="subtituloInicio">Oferta educativa</div>
         <div class="cardOfertaContenedor">
-            <div class="OfertacardContenido">
-                 <img src="\imagenes\escribiendo.jpg" alt="Imagen">
-                <div class="CardOferta">
-                    <div class="CardTituloOferta">Licenciatura en <br> Estudios Mexicanos</div>
-                    <a href="{{ url('/Licenciatura-en-Estudios-Mexicanos') }}" class="boton">Visitar</a>
+            <!-- LICENCIATURA -->
+            <a href="{{ url('/Licenciatura-en-Estudios-Mexicanos') }}" style="text-decoration: none; color: inherit;">
+                <div class="OfertacardContenido">
+                    <img src="\imagenes\escribiendo.jpg" alt="Imagen">
+                    <div class="CardOferta">
+                        <div class="CardTituloOferta">Licenciatura en <br> Estudios Mexicanos</div>
+                        <div class="boton">Visitar</div>
+                    </div>
                 </div>
             </a>
-
             <!-- MAESTRÍA -->
             <a href="{{ url('/Maestria-En-Ciencia-De-Datos') }}" style="text-decoration: none; color: inherit;">
-                <div class="OfertacardContenido" style="cursor: pointer;">
+                <div class="OfertacardContenido">
                     <img src="/imagenes/personaViendoComputador.jpg" alt="Imagen 1">
                     <div class="CardOferta">
                         <div class="CardTituloOferta">Maestría en <br> Ciencias de Datos</div>
@@ -146,7 +148,6 @@
                     </div>
                 </div>
             </a>
-
         </div>
 
 

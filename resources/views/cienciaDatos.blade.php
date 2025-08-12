@@ -4,7 +4,7 @@
 
     <div class="videoContenedor">
         <video controls autoplay muted playsinline>
-            <source src="\videos\Cortinilla de Ciencia de datos.mp4" type="video/mp4">
+            <source src="\videos\Universidad_Virtual_ Maestria_en_Ciencia_de_Datos.mp4" type="video/mp4">
             Tu navegador no soporta el formato de video.
         </video>
     </div>
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="tituloOferta">Maestria en Ciencia de Datos</div>
-        <div class="descripcion"> La <strong>Universidad Virtual</strong> (UV) ofrece esta maestría en línea para formar 
+        <div class="descripcion"> La <strong>Universidad Virtual</strong> ofrece esta maestría en línea para formar 
 especialistas en el análisis de grandes volúmenes de datos, capaces
  de apoyar la toma de decisiones en sectores públicos y privados.</div>
         <div class="botonesContenedor">
@@ -26,7 +26,7 @@ especialistas en el análisis de grandes volúmenes de datos, capaces
                 <button class="boton2" onclick="toggleContenido('perfil-egreso-maestria')">Perfil de Egreso</button>
                 <button class="boton2" onclick="toggleContenido('campo-laboral-maestria')">Campo Laboral</button>
                 <button class="boton2" onclick="toggleContenido('ventajas-carrera-maestria')">Ventajas de estudiar esta carrera</button>
-                <button class="boton2" onclick="abrirModal('plan-estudios-maestria')">Plan de estudios</button>
+                <button class="boton2" onclick="abrirModal('plan-estudios-maestria')">Plan de Estudios</button>
             </div>
 
             <div class="linea-divisoria" id="lineaDivisoria"></div>

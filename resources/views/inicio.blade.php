@@ -6,7 +6,7 @@
     <div class="seccionContenedor">
         <div class="subtituloInicio">Novedades</div>
         <div class="textoInicio">Revisa las fechas importantes del próximo ciclo escolar, como entrega de documentos, inicio
-            de clases y curso propedéutico..
+            de clases y curso propedéutico.
         </div>
         <div class="cardNovedadesContenedor">
 
@@ -70,7 +70,7 @@
             <div class="cardNovedades" onclick="abrirModalInformativo('rescripcionMaestria')" style="cursor: pointer;">
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Reinscripción</div>
-                    <div class="cardNovedadesSubtitulo">Maestría en Ciencia de Datos 2025-B</div>
+                    <div class="cardNovedadesSubtitulo">Mastría en Ciencia de Datos 2025-B</div>
                     <br>
                     <img src="\imagenes\ReinscripcionMaestria.png" alt="Imagen 1">
                     <div class="botonCardNovedades">Ver más</div>
@@ -122,21 +122,17 @@
             y promueve la excelencia en docencia, investigación y desarrollo. La <b>UTM</b>,
             como parte del sistema, impulsa conocimiento e innovación para fortalecer
             el entorno y por medio de su <b>Universidad Virtual</b> ofrece la Licenciatura en
-            Estudios Mexicanos y la Maestría en Ciencia de Datos</div>
+            Estudios Mexicanos y la Maestría en Ciencia de Datos.</div>
     </div>
     <div id="ofertaEducativa" style="height: 50px;"></div>
     <div class="seccionContenedor">
         <div class="subtituloInicio">Oferta educativa</div>
         <div class="cardOfertaContenedor">
-
-            <!-- LICENCIATURA -->
-            <a href="{{ url('/Licenciatura-en-Estudios-Mexicanos') }}" style="text-decoration: none; color: inherit;">
-                <div class="OfertacardContenido" style="cursor: pointer;">
-                    <img src="/imagenes/escribiendo.jpg" alt="Imagen">
-                    <div class="CardOferta">
-                        <div class="CardTituloOferta">Licenciatura de <br> estudios mexicanos</div>
-                        <div class="boton">Visitar</div>
-                    </div>
+            <div class="OfertacardContenido">
+                 <img src="\imagenes\escribiendo.jpg" alt="Imagen">
+                <div class="CardOferta">
+                    <div class="CardTituloOferta">Licenciatura en <br> Estudios Mexicanos</div>
+                    <a href="{{ url('/Licenciatura-en-Estudios-Mexicanos') }}" class="boton">Visitar</a>
                 </div>
             </a>
 

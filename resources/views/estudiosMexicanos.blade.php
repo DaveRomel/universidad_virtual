@@ -2,31 +2,26 @@
 
 @section('contenido')
 
-<div class="videoContenedor">
-    <video controls autoplay muted playsinline>
-        <source src="\videos\Cortinilla de Licenciatura en Estudios Mexicanos.mp4" type="video/mp4">
-        Tu navegador no soporta el formato de video.
-    </video>
-</div>
+    <div class="videoContenedor">
+        <video controls autoplay muted playsinline>
+            <source src="\videos\Licenciatura_en_Estudios_Mexicanos.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+    </div>
 
 <div class="ContenedorSeccion">
 
-    {{-- Modal general --}}
-    <div id="modalGeneral" class="modal" style="display: none;">
-        <div class="modal-contenido">
-            <span class="modal-cerrar" onclick="cerrarModal()">&times;</span>
-            <div id="modalContenido"></div>
+        <div id="modalGeneral" class="modal" style="display: none;">
+            <div class="modal-contenido">
+             <span class="modal-cerrar" onclick="cerrarModal()">&times;</span>
+              <div id="modalContenido"></div>
+            </div>
         </div>
-    </div>
-
-    <div class="tituloOferta">Licenciatura en Estudios Mexicanos</div>
-    <div class="descripcion">
-        La <strong>Universidad Virtual</strong> (UV) a través de su modalidad en línea, ofrece la
-        Licenciatura en Estudios Mexicanos, orientada al fortalecimiento cultural,
-        la identidad nacional y la proyección profesional de sus egresados.
-    </div>
-
-    <div class="botonesContenedor">
+        <div class="tituloOferta">Licenciatura en Estudios Mexicanos</div>
+        <div class="descripcion"> La <strong>Universidad Virtual</strong> a través de su modalidad en línea, ofrece la
+            Licenciatura en Estudios Mexicanos, orientada al fortalecimiento cultural,
+            la identidad nacional y la proyección profesional de sus egresados.</div>
+        <div class="botonesContenedor">
 
         {{-- Fila 1 --}}
         <div class="fila-botones">
@@ -44,11 +39,7 @@
             </div>
             <div class="boton-wrapper">
                 <button class="boton2" onclick="toggleContenido('ventajas-carrera-licenciatura')">Ventajas de estudiar esta carrera</button>
-                <div class="recuadro"></div>
-            </div>
-            <div class="boton-wrapper">
-                <button class="boton2" onclick="abrirModal('plan-estudios-licenciatura')">Plan de estudios</button>
-                <div class="recuadro"></div>
+                <button class="boton2" onclick="abrirModal('plan-estudios-licenciatura')">Plan de Estudios</button>
             </div>
         </div>
 

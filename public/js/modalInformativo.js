@@ -100,3 +100,9 @@ function abrirModalInformativo(id) {
 function cerrarModalInformativo() {
   document.getElementById("modalInformativo").style.display = "none";
 }
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === "Escape") {
+        cerrarModalInformativo();
+    }
+});

@@ -230,3 +230,10 @@ function toggleContenido(id) {
     }
 }
 
+window.onload = function() {
+    if (typeof idInicial !== 'undefined') {
+        toggleContenido(idInicial);
+    }
+};
+
+

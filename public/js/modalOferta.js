@@ -171,3 +171,10 @@ function abrirModal(id) {
 function cerrarModal() {
   document.getElementById("modalGeneral").style.display = "none";
 }
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === "Escape") {
+        cerrarModal();          
+       
+    }
+});

@@ -53,14 +53,14 @@
         </div>
 
         {{-- Línea divisoria visible solo en escritorio --}}
-        <div class="linea-divisoria" id="lineaDivisoria"></div>
+        <div class="linea-divisoria" id="lineaDivisoria" style="display: none;"></div>
 
         {{-- Icono visible solo en móvil --}}
         <div class="icono-movil">
             <i class="fa fa-chevron-down"></i>
         </div>
 
-        <div id="contenidoOferta" class="contenidoOferta" style="display: none;"></div>
+        <div id="contenidoOferta" class="contenidoOferta" style="display: block;"></div>
 
         {{-- Fila 2 --}}
         <div class="fila-botones">
@@ -97,5 +97,10 @@
         <p id="modalTexto"></p>
     </div>
 </div>
+
+<script>
+  var idInicial = 'perfil-aspirante-licenciatura';
+</script>
+<script src="/js/oferta.js"></script>
 
 @endsection

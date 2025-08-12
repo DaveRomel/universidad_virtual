@@ -59,4 +59,9 @@ especialistas en el análisis de grandes volúmenes de datos, capaces
   </div>
 </div>
 
+<script>
+  var idInicial = 'perfil-aspirante-maestria'; 
+</script>
+<script src="/js/oferta.js"></script>
+
 @endsection

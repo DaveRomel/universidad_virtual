@@ -185,3 +185,11 @@ function abrirModalProfesor(id) {
 function cerrarModalProfesor() {
   document.getElementById("modalProfesor").style.display = "none";
 }
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === "Escape") {
+        
+        cerrarModalProfesor();  
+      
+    }
+});

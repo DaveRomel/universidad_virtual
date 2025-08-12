@@ -63,7 +63,7 @@ body::-webkit-scrollbar { display: none; }
 
 .logoLeft img,
 .logoRight img{
-  width: clamp(70px, 10vw, 130px);
+  width: clamp(70px, 10vw, 100px);
   height:auto;
 }
 
@@ -112,11 +112,17 @@ body::-webkit-scrollbar { display: none; }
   font-size: clamp(16px, 3.2vw, 30px);
   color:#fff; 
   text-decoration:none;
+  
 }
 @media (min-width: 900px){
   .nav-container{ justify-content: flex-end !important; }
 }
 .nav-link:hover { color: #333; }
+
+.nav-links {
+    display: flex;
+    gap: 24px; /* Ajusta el valor según el espacio que desees */
+}
 
 /*==================== Footer ====================*/
 .footer{ background:#7e2c2c; color:#fff; padding: 12px 0; }

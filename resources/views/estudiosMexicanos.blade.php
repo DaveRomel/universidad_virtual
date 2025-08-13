@@ -39,6 +39,9 @@
             </div>
             <div class="boton-wrapper">
                 <button class="boton2" onclick="toggleContenido('ventajas-carrera-licenciatura')">Ventajas de estudiar esta carrera</button>
+                <div class="recuadro"></div>
+            </div>
+             <div class="boton-wrapper">
                 <button class="boton2" onclick="abrirModal('plan-estudios-licenciatura')">Plan de Estudios</button>
             </div>
         </div>

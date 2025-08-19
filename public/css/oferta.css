@@ -178,7 +178,24 @@ a:hover {
     transform: translateY(-2px);
 }
 
+.contenidoOfertaMovil {
+  background-color: white;
+  border: 1px solid #c68c3e;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 6px 0 10px;
+  font-family: 'nunito', sans-serif;
+  font-size: 13px;
+  color: #58463A;
+  text-align: justify;
+  display: none;
+}
 
+/* Estado visual del botón activo (ya tenías el caret en :after) */
+.boton2.activo {
+  outline: none;
+  filter: brightness(0.95);
+}
 
 /******************* Contenido dinámico *******************/
 @keyframes slideDown {
@@ -213,6 +230,20 @@ a:hover {
     background-color: #C68c3E;
     margin: 10px 0;
     
+}
+.recuadro {
+  background-color: white;
+  border: 1px solid #c68c3e;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'nunito', sans-serif;
+  font-size: 14px;
+  color: #58463A;
+  text-align: justify;
+  display: none;       
+  animation: slideDown 0.5s ease-out;
 }
 
 
@@ -344,7 +375,11 @@ a:hover {
     color: #58463A;
   }
 
-
+ .recuadro {
+    height: auto;     
+    max-height: 320px;  
+    overflow-y: auto;   
+  }
   /* Modales adaptados al teléfono */
   .modal-contenido, 
   .modal-contenido-Profesor {

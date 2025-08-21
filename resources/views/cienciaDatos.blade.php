@@ -17,11 +17,13 @@
             </div>
         </div>
 
-        <div class="tituloOferta">Maestría en Ciencia de Datos</div>
-        <div class="descripcion-MCD">
-            La <strong>Universidad Virtual</strong> ofrece esta maestría en línea para formar
-            especialistas <br>en el análisis de grandes volúmenes de datos, capaces
-            de apoyar la toma de <br>decisiones en sectores públicos y privados.
+        <div class="contenedorSeccionTitulo">
+            <div class="tituloOferta">Maestría en Ciencia de Datos</div>
+            <div class="descripcion-MCD">
+                La <strong>Universidad Virtual</strong> ofrece esta maestría en línea para formar
+                especialistas en el análisis de grandes volúmenes de datos, capaces
+                de apoyar la toma de decisiones en sectores públicos y privados.
+            </div>
         </div>
 
         <div class="botonesContenedor">

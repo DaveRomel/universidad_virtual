@@ -45,8 +45,8 @@ const contenidosModal = {
 
   <h5>Requisitos para el curso propedéutico</h5>
   <ul>
-    <li>Solicitud de admisión completa <a href="/documentos/SolicitudMCD.doc" download>(aquí)</a></li>
-    <li>Formato examen y entrevista <a href="/documentos/formatoExamen.docx" download> (aquí)</a></li>
+    <li>Solicitud de admisión completa <a href="/documentos/SolicitudMCD.doc" style="color: blue" download>(aquí)</a></li>
+    <li>Formato examen y entrevista <a href="/documentos/formatoExamen.docx" style="color: blue" download> (aquí)</a></li>
     <li>Acta de nacimiento *</li>
     <li>CURP *</li>
     <li>Certificado de Licenciatura *</li>
@@ -55,7 +55,7 @@ const contenidosModal = {
     <li>Dos cartas de referencia</li>
     <li>Carta de exposición de motivos (de 3 a 5 cuartillas, dirigida al Comité de admisión de la Maestría en Ciencia de Datos)</li>
     <li>Fotografía infantil digital (color o b/n)</li>
-    <li>Convocatoria 2025 <a href="/imagenes/posterCienciasDatos.jpg">(aquí)</a></li>
+    <li>Convocatoria 2025 <a href="/imagenes/posterCienciasDatos.jpg" style="color: blue">(aquí)</a></li>
   </ul>
 
   <p>Los documentos deben ser enviados en formato PDF (escaneo fiel del documento original) al correo electrónico <strong>univirtual@gs.utm.mx</strong>.</p>

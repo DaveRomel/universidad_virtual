@@ -2,24 +2,30 @@
 const datosModalInformativo = {
 admisionMaestria: {
   titulo: "Fechas importantes",
-  imagen: "/imagenes/posterCienciasDatos.jpg",
-  texto: `
+  /*imagen: "/imagenes/posterCienciasDatos.jpg",
+  /*texto: `
     Documentos MCD: <a href="/Maestria-En-Ciencia-De-Datos" target="_blank">Aquí</a><br>
     Inscripción a curso propedéutico: 07 al 11 de julio de 2025<br>
     Inicio del curso propedéutico: 28 de julio de 2025<br>
     Fin de curso propedéutico: 20 de agosto de 2025
+  `*/
+  texto: `
+   Atentos a próxima convocatoria: febrero 2026.<br>
   `
 },
 admisionLicenciatura: {
   titulo: "Fechas importantes",
   imagen: "",
-  texto: `
+  /*texto: `
    Documentos LEM: <a href="/Licenciatura-en-Estudios-Mexicanos" target="_blank">Aquí</a><br>
    Recepción de documentación: 14 de febrero al 25 de junio de 2025<br> 
    Inscripción a curso propedéutico: 24 al 25 de julio de 2025<br>
    Inicio del curso propedéutico: 28 de julio de 2025<br>
    Fin de curso propedéutico: 20 de agosto de 2025<br>
    Los documentos pueden ser en formato digital para los trámites del curso propedéutico y puede enviarlos a los siguientes correos: info@virtual.utm.mx o univirtual@gs.utm.mx
+  `*/
+  texto: `
+   Atentos a próxima convocatoria: febrero 2026.<br>
   `
 },
 calendarioEscolar: {
@@ -56,6 +62,7 @@ rescripcionMaestria: {
     Curso propedéutico: 29 de julio al 20 de septiembre de 2024.<br>
     Los documentos pueden ser en formato digital para los trámites del curso propedéutico y puede enviarlos a los siguientes correos: jcvirtual@gs.utm.mx o univirtual@gs.utm.mx
   `
+  
 },
 fechasImportantes: {
   titulo: "Fechas importantes",

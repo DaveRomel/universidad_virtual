@@ -48,7 +48,9 @@
   align-items: center;
   z-index: 1000;
 }
-
+.modal a{
+  color: #58463A;
+}
 .modal-contenido {
   background-color: #ffffff;
   border: 1px solid #c68c3e;
@@ -115,14 +117,14 @@ a:hover {
 
 /******************* Título *******************/
 .tituloOferta {
-    font-family: 'LtCushionmedium', sans-serif;
-    font-size: 40px;
-    color: #58463A;
-    text-align: left;
-    margin-top: -90px;
-    margin-left: -50px;
-    width: 400px;
-   text-align:center;
+  font-family: 'LtCushionmedium', sans-serif;
+  font-size: 40px;
+  color: #58463A;
+  text-align: left;
+  margin-top: -90px;
+  margin-left: 0%;
+  width: 400px;
+  text-align: center;
 
 }
 
@@ -132,14 +134,23 @@ a:hover {
     font-weight: 400;
     font-size: 18px;
     color: #58463A;
-    text-align: justify;
+    text-align:justify;
    
-
     width: 700px;
-    margin-top: -90px;
-    margin-left: 500px;
+    margin-top: -80px;
+    margin-left: 410px;
 }
-
+.descripcion-MCD{
+    font-family: 'nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #58463A;
+    text-align:justify;
+   
+    width: 700px;
+    margin-top: -80px;
+    margin-left: 450px;
+}
 /******************* Botones *******************/
 .icono-movil {
     display: none;

@@ -9,7 +9,7 @@ PedroAlberto: {
 },
 ChristianEduardo: {
   titulo: "Dr. Christian Eduardo Millán Hernández",
-  imagen: "/imagenes/sinFoto.jpg",
+  imagen: "/imagenes/cmillanh_foto.png",
   texto: `
   El Dr. Millán es Profesor Investigador del Instituto de Computación de la Universidad Tecnológica de la Mixteca. Sus áreas de interés son el Procesamiento de Lenguaje Natural, Lingüística Computacional, Reconocimiento de Patrones, Metaheurísticas, Aprendizaje Automático, Redes Neuronales y LLMs. Especialmente busca desarrollar soluciones a problemas del sector salud, agropecuario y educativo. Es Ingeniero en Sistemas Computacionales por el Instituto Tecnológico de Toluca, estudió la maestría y el doctorado en Ciencias de la Computación, ambos en la Universidad Autónoma del Estado de México (UAEMex). Galardonado dos veces con la presea “Ignacio Manuel Altamirano Basilio” versiones 2017 y 2020, otorgadas la UAEMex. Es miembro del Sistema Nacional de Investigadores e Investigadores (SNII) del CONACYT con nivel Candidato a Investigador Nacional. Cuenta con el Perfil Desable PRODEP. Es integrante del Cuerpo Académico PRODEP “Sistemas Inteligentes y Realidad Virtual”.
   `
@@ -130,6 +130,13 @@ BravoGuzman: {
 },
 MarcosGerman: {
   titulo: "Ing. Marcos German Corro Ortiz",
+  imagen: "/imagenes/sinFoto.jpg",
+  texto: `
+  Sin Información
+  `
+},
+DiegoLozada: {
+  titulo: "Lic. Diego Martínez Lozada",
   imagen: "/imagenes/sinFoto.jpg",
   texto: `
   Sin Información

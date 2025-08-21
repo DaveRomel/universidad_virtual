@@ -112,7 +112,7 @@ body::-webkit-scrollbar { display: none; }
   font-size: clamp(16px, 3.2vw, 30px);
   color:#fff; 
   text-decoration:none;
-  
+  text-align: left;
 }
 @media (min-width: 900px){
   .nav-container{ justify-content: flex-end !important; }

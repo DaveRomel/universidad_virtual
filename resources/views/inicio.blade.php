@@ -14,14 +14,13 @@
             <div class="cardNovedades" onclick="abrirModalInformativo('admisionMaestria')" style="cursor: pointer;">
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Admisión</div>
-                    <div class="cardNovedadesSubtitulo">Maestría en Ciencia de Datos</div>
-                    <br>
+                    <div class="cardNovedadesSubtitulo">Maestría en Ciencia de Datos y Licenciatura en Estudios Mexicanos</div>
                     <img src="\imagenes\posterCienciasDatos.jpg" alt="Imagen 1">
                     <div class="botonCardNovedades">Ver más</div>
                 </div>
             </div>
 
-            <!-- MODAL: Admisión Licenciatura -->
+            <!-- MODAL: Admisión Licenciatura
             <div class="cardNovedades" onclick="abrirModalInformativo('admisionLicenciatura')" style="cursor: pointer;">
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Admisión</div>
@@ -30,22 +29,22 @@
                     <img src="\imagenes\admisionLicenciatura.png" alt="Imagen 1">
                     <div class="botonCardNovedades">Ver más</div>
                 </div>
-            </div>
+            </div>-->
 
             <!-- LINK: Calendario escolar -->
-            <a href="https://www.utm.mx/web/node/613" style="text-decoration: none; color: inherit;">
+            <a href="\documentos\Calendario_2025-2026.pdf" target="_blank" style="text-decoration: none; color: inherit;">
                 <div class="cardNovedades" style="cursor: pointer;">
                     <div class="cardNovedadesContenido">
                         <div class="cardNovedadesTitulo">Calendario</div>
                         <div class="cardNovedadesSubtitulo">Calendario escolar 2025-2026</div>
                         <br>
-                        <img src="\imagenes\calendarioEscolar.png" alt="Imagen 1">
+                        <img src="\imagenes\calendario2026a.png" alt="Imagen 1">
                         <div class="botonCardNovedades">Ver más</div>
                     </div>
                 </div>
             </a>
 
-            <!-- MODAL: Calendario de verano -->
+            <!-- MODAL: Calendario de verano 
             <div class="cardNovedades" onclick="abrirModalInformativo('calendarioVerano')" style="cursor: pointer;">
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Calendario</div>
@@ -54,30 +53,53 @@
                     <img src="\imagenes\calendarioVerano.png" alt="Imagen 1">
                     <div class="botonCardNovedades">Ver más</div>
                 </div>
-            </div>
+            </div>-->
 
-            <!-- MODAL: Reinscripción Licenciatura -->
+            <!-- MODAL: Reinscripción Licenciatura 
             <div class="cardNovedades" onclick="abrirModalInformativo('rescripcionLicenciatura')" style="cursor: pointer;">
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Reinscripción</div>
-                    <div class="cardNovedadesSubtitulo">Licenciatura en Estudios Mexicanos 2025-B</div>
+                    <div class="cardNovedadesSubtitulo">Licenciatura en Estudios Mexicanos 2026-A</div>
                     <img src="\imagenes\ReinscripcionLicenciatura.png" alt="Imagen 1">
                     <div class="botonCardNovedades">Ver más</div>
                 </div>
-            </div>
+            </div>-->
 
-            <!-- MODAL: Reinscripción Maestría -->
+            <!-- MODAL: Reinscripción Maestría 
             <div class="cardNovedades" onclick="abrirModalInformativo('rescripcionMaestria')" style="cursor: pointer;">
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Reinscripción</div>
-                    <div class="cardNovedadesSubtitulo">Mastría en Ciencia de Datos 2025-B</div>
+                    <div class="cardNovedadesSubtitulo">Mastría en Ciencia de Datos 2026-A</div>
                     <br>
                     <img src="\imagenes\ReinscripcionMaestria.png" alt="Imagen 1">
                     <div class="botonCardNovedades">Ver más</div>
                 </div>
-            </div>
-
-            <!-- MODAL: Fechas importantes -->
+            </div>-->
+            <!-- LINK: Reinscripción Licenciatura -->
+            <a href="\documentos\LEM_2026-A_INSCRIPCIONES.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="cardNovedades" style="cursor: pointer;">
+                    <div class="cardNovedadesContenido">
+                        <div class="cardNovedadesTitulo">Reinscripción</div>
+                        <div class="cardNovedadesSubtitulo">Licenciatura en Estudios Mexicanos 2026-A</div>
+                        <br>
+                        <img src="\imagenes\ReinscripcionLicenciatura.png" alt="Imagen 1">
+                        <div class="botonCardNovedades">Ver más</div>
+                    </div>
+                </div>
+            </a>
+            <!-- LINK: Reinscripción Maestría -->
+            <a href="\documentos\MCD_2026-A_INSCRIPCIONES.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="cardNovedades" style="cursor: pointer;">
+                    <div class="cardNovedadesContenido">
+                        <div class="cardNovedadesTitulo">Reinscripción</div>
+                        <div class="cardNovedadesSubtitulo">Mastría en Ciencia de Datos 2026-A</div>
+                        <br>
+                        <img src="\imagenes\ReinscripcionMaestria.png" alt="Imagen 1">
+                        <div class="botonCardNovedades">Ver más</div>
+                    </div>
+                </div>
+            </a>
+            <!-- MODAL: Fechas importantes 
             <div class="cardNovedades" onclick="abrirModalInformativo('fechasImportantes')" style="cursor: pointer;">
                 <div class="cardNovedadesContenido">
                     <div class="cardNovedadesTitulo">Fechas Importantes</div>
@@ -85,14 +107,14 @@
                     <img src="\imagenes\LEMFechasImportantes.png" alt="Imagen 1">
                     <div class="botonCardNovedades">Ver más</div>
                 </div>
-            </div>
+            </div>-->
 
             <!-- LINK: Horarios -->
-            <a href="https://www.utm.mx/~horarios" style="text-decoration: none; color: inherit;">
+            <a href="https://www.utm.mx/~horarios/virtual/MCD/MCD.htm" style="text-decoration: none; color: inherit;">
                 <div class="cardNovedades" style="cursor: pointer;">
                     <div class="cardNovedadesContenido">
                         <div class="cardNovedadesTitulo">Horarios</div>
-                        <div class="cardNovedadesSubtitulo">LEM Y MCD</div>
+                        <div class="cardNovedadesSubtitulo">MCD</div>
                         <br>
                         <img src="\imagenes\horarios.png" alt="Imagen 1">
                         <div class="botonCardNovedades">Ver más</div>
@@ -100,7 +122,7 @@
                 </div>
             </a>
 
-            <!-- LINK: Repositorio -->
+            <!-- LINK: Repositorio UTM
             <a href="http://repositorio.utm.mx:8080/" style="text-decoration: none; color: inherit;">
                 <div class="cardNovedades" style="cursor: pointer;">
                     <div class="cardNovedadesContenido">
@@ -110,7 +132,7 @@
                         <div class="botonCardNovedades">Ver más</div>
                     </div>
                 </div>
-            </a>
+            </a>-->
 
         </div>
 
@@ -131,7 +153,7 @@
             <!-- LICENCIATURA -->
             <a href="{{ url('/Licenciatura-en-Estudios-Mexicanos') }}" style="text-decoration: none; color: inherit;">
                 <div class="OfertacardContenido">
-                    <img src="\imagenes\escribiendo.jpg" alt="Imagen">
+                    <img src="\imagenes\estudiosmexicanos.png" alt="Imagen">
                     <div class="CardOferta">
                         <div class="CardTituloOferta">Licenciatura en <br> Estudios Mexicanos</div>
                         <div class="boton">Visitar</div>

@@ -139,11 +139,11 @@ function obtenerContenido(id) {
     case "formatos-licenciatura":
       return `
         <p><ul>
-          <li>Solicitud Inscripción a curso propedéutico (Aspirantes aceptados) <a href="/documentos/SIPROPE.pdf" target="_blank">(aquí)</a></li><br>
-          <li>Solicitud Inscripción a primer semestre <a href="/documentos/SI.pdf" target="_blank">(aquí)</a></li><br>
-          <li>Solicitud Reinscripción <a href="/documentos/SR.pdf" target="_blank">(aquí)</a></li><br>
-          <li>Solicitud Reinscipción por materias <a href="/documentos/SIRM.pdf" target="_blank">(aquí)</a></li><br>
-          <li>Solicitud Inscripción a verano <a href="/documentos/SCVERANO.pdf" target="_blank">(aquí)</a></li>
+          <li>Solicitud Inscripción a curso propedéutico (Aspirantes aceptados) <a href="/documentos/SIPROPE.pdf" style="color: blue" target="_blank">(aquí)</a></li><br>
+          <li>Solicitud Inscripción a primer semestre <a href="/documentos/SI.pdf" style="color: blue" target="_blank">(aquí)</a></li><br>
+          <li>Solicitud Reinscripción <a href="/documentos/SR.pdf" style="color: blue" target="_blank">(aquí)</a></li><br>
+          <li>Solicitud Reinscipción por materias <a href="/documentos/SIRM.pdf" style="color: blue" target="_blank">(aquí)</a></li><br>
+          <li>Solicitud Inscripción a verano <a href="/documentos/SCVERANO.pdf" style="color: blue" target="_blank">(aquí)</a></li>
         </ul></p>
       `;
     case "becas-licenciatura":
@@ -158,7 +158,7 @@ function obtenerContenido(id) {
         </p>
       `;
     case "profesores-licenciatura":
-      return `
+      /*return `
         <p><ul>
           <li><a onclick="abrirModalProfesor('NadiaRuiz')">Dra. Nadia Ruiz Muñoz</a></li>
           <li><a onclick="abrirModalProfesor('RamonAmadeo')">Dr. Ramón Amadeo Castillo Ponce</a></li>
@@ -166,6 +166,13 @@ function obtenerContenido(id) {
           <li><a onclick="abrirModalProfesor('OfeliaPineda')">Lic. Ofelia Pineda Ortiz</a></li>
           <li><a onclick="abrirModalProfesor('CynthiaTorralba')">Lic. Cynthia Torralba Velasco</a></li>
           <li><a onclick="abrirModalProfesor('DiegoMartinez')">Lic. Diego Martínez Lozada</a></li>
+          <li><a onclick="abrirModalProfesor('MarcosGerman')">Ing. Marcos German Corro Ortiz</a></li>
+        </ul></p>
+      `;*/
+      return `
+        <p><ul>
+          <li><a onclick="abrirModalProfesor('DiegoLozada')">Lic. Diego Martínez Lozada</a></li>
+          <li><a onclick="abrirModalProfesor('CynthiaTorralba')">Lic. Cynthia Torralba Velasco</a></li>
           <li><a onclick="abrirModalProfesor('MarcosGerman')">Ing. Marcos German Corro Ortiz</a></li>
         </ul></p>
       `;
@@ -212,14 +219,14 @@ function obtenerContenido(id) {
     case "formatos-maestria":
       return `
         <p><ul>
-          <li>Solicitud de Inscripción <a href="/documentos/SIMCD.pdf" target="_blank">(aquí)</a></li><br>
-          <li>Solicitud de Reinscripción <a href="/documentos/FORMATORP.pdf" target="_blank">(aquí)</a></li>
+          <li>Solicitud de Inscripción <a href="/documentos/SIMCD.pdf" style="color: blue" target="_blank">(aquí)</a></li><br>
+          <li>Solicitud de Reinscripción <a href="/documentos/FORMATORP.pdf" style="color: blue" target="_blank">(aquí)</a></li>
         </ul></p>
       `;
     case "becas-maestria":
       return `<p>Contenido no disponible</p>`;
     case "profesores-maestria":
-      return `
+      /*return `
         <p><ul>
           <li><a onclick ="abrirModalProfesor('PedroAlberto')">Dr. Pedro Alberto Antonio Soto</a></li>
           <li><a onclick ="abrirModalProfesor('ChristianEduardo')">Dr. Christian Eduardo Millán Hernández</a></li>
@@ -227,6 +234,13 @@ function obtenerContenido(id) {
           <li><a onclick ="abrirModalProfesor('TomasPerez')">Dr. Tomás Pérez Becerra</a></li>
           <li><a onclick ="abrirModalProfesor('ErikGerman')">M.T.C.A. Erik Germán Ramos Pérez</a></li>
           <li><a onclick ="abrirModalProfesor('EduardoSanchez')">Dr. Eduardo Sánchez Soto</a></li>
+        </ul></p>
+      `;*/
+      return `
+        <p><ul>
+          <li><a onclick ="abrirModalProfesor('ChristianEduardo')">Dr. Christian Eduardo Millán Hernández</a></li>
+          <li><a onclick ="abrirModalProfesor('AnaDelia')">M.C. Ana Delia Olvera Cervantes</a></li>
+          <li><a onclick ="abrirModalProfesor('TomasPerez')">Dr. Tomás Pérez Becerra</a></li>
         </ul></p>
       `;
     case "ciclo-escolar-maestria":

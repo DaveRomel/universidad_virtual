@@ -19,21 +19,21 @@ const contenidosModal = {
       <a href="/documentos/maestria/371031.pdf" target="_blank">Proyecto Aplicado III.</a><br>
       <a href="/documentos/maestria/371032.pdf" target="_blank">Datos Masivos.</a><br>
       <a href="/documentos/maestria/371033.pdf" target="_blank">Análisis Multivariante de Datos.</a><br>
-      <a href="/documentos/maestria/371034.pdf" target="_blank">Optativa I.</a><br>
+      <a >Optativa I.</a><br>
     </div>
 
     <div class="columna">
       <h5>Semestre 4</h5>
       <a href="/documentos/maestria/371035.pdf" target="_blank">Taller de Tesis.</a><br>
-      <a href="/documentos/maestria/371042.pdf" target="_blank">Temas de Análisis Multivariante Aplicado.</a><br>
+      <a >Optaiva II</a><br>
       
       <h5>Optativa I: Analista de Datos</h5>
-      <a href="/documentos/maestria/371043.pdf" target="_blank">Narración de Historias.</a><br>
-      <a href="#">Tópicos Avanzados de Aprendizaje Máquina.</a><br> <!-- Documento no identificado -->
+      <a href="/documentos/maestria/371034.pdf" target="_blank">Narración de Historias.</a><br>
+      <a href="/documentos/maestria/371035.pdf" target="_blank">Tópicos Avanzados de Aprendizaje Máquina.</a><br>
 
       <h5>Optativa II: Científico Analista</h5>
-      <a href="#">Temas de Análisis Multivariante Aplicado.</a><br> <!-- Ya incluido arriba -->
-      <a href="#">Servicios en la Nube para Aprendizaje Máquina.</a><br> <!-- Ya incluido como 371043 -->
+      <a href="/documentos/maestria/371042.pdf" target="_blank">Temas de Análisis Multivariante Aplicado.</a><br> <!-- Ya incluido arriba -->
+      <a href="/documentos/maestria/371043.pdf" target="_blank">Servicios en la Nube para Aprendizaje Máquina.</a><br> <!-- Ya incluido como 371043 -->
     </div>
   </div>
 `

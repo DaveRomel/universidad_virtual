@@ -142,10 +142,10 @@
 .cardOfertaContenedor {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end; /* Alinea a la derecha */
+  justify-content: flex-start; /* Alinea a la derecha */
   gap: 60px;
-  margin-left: auto;         /* Empuja a la derecha */
-  margin-right: 200px;
+  margin-left: 520px;         /* Empuja a la derecha */
+  /*margin-right: 200px;*/
   margin-top: -150px;
   margin-bottom: 30px;
 }

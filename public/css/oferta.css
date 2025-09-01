@@ -316,7 +316,7 @@ a:hover {
 }
 
 /* ======== Ajustes para móviles pequeños ======== */
-@media (max-width: 480px) {
+@media (max-width: 640px) {
 
   .ContenedorSeccion {
     padding: 15px;
@@ -408,5 +408,72 @@ a:hover {
   /* Opcional: línea divisoria menos ancha en móvil */
   #lineaDivisoria {
     display: none !important;
+  }
+}
+/* ======== Vista Tablet (641px – 1024px) ======== */
+@media (min-width: 641px) and (max-width: 1024px) {
+
+  .ContenedorSeccion {
+    padding: 25px;
+    margin: 40px auto;
+    max-width: 90%;
+  }
+
+  .tituloOferta {
+    font-size: 32px;
+    margin: 0 auto 20px;
+    width: auto;
+    text-align: center;
+  }
+
+  .descripcion,
+  .descripcion-MCD {
+    width: 90%;
+    margin: 0 auto 20px;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .botonesContenedor {
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  .fila-botones {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .boton2 {
+    width: 260px;        /* un poco más ancho que en móvil */
+    height: auto;
+    font-size: 16px;
+    padding: 12px 16px;
+    text-align: center;
+  }
+
+  .contenidoOferta,
+  .recuadro {
+    height: auto;
+    max-height: 300px;
+    font-size: 15px;
+  }
+
+  .contenedor-dos-columnas {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .columna {
+    flex: 1 1 45%;
+    min-width: 280px;
+  }
+
+  /* Modales más cómodos en tablet */
+  .modal-contenido, 
+  .modal-contenido-Profesor {
+    max-width: 85%;
+    max-height: 70vh;
+    font-size: 15px;
   }
 }

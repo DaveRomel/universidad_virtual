@@ -249,7 +249,7 @@
 }
 
 /* ====== SOLO MÓVIL (≤480px) — Sección Inicio ====== */
-@media (max-width: 480px){
+@media (max-width: 640px){
 
   
   .tituloInicio{

@@ -366,7 +366,58 @@
 @media (max-width: 360px){
   .cardNovedadesContenedor{ grid-template-columns: repeat(2, 1fr); }
 }
- 
+ /* ===== Vista Tablet (641px – 1024px) ===== */
+@media (min-width: 641px) and (max-width: 1024px){
+
+  .tituloInicio{
+    font-size: 32px;   /* más chico que en desktop, más grande que en móvil */
+    margin-top: 40px;
+  }
+
+  .subtituloInicio{
+    font-size: 24px;
+    margin: 12px auto 0;
+    text-align: center;
+  }
+
+  .textoInicio{
+    font-size: 16px;
+    width: 90%;        /* ocupa casi todo el ancho de la tablet */
+    margin: 20px auto 0;
+    text-align: justify;
+  }
+
+  /* Novedades: 2 columnas en tablet */
+  .cardNovedadesContenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    justify-items: center;
+  }
+  .cardNovedades{
+    width: 160px;
+  }
+
+  /* Oferta: 2 columnas centradas */
+  .cardOfertaContenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    justify-items: center;
+    margin: 20px auto;
+  }
+  .OfertacardContenido{
+    width: 80%;
+    max-width: 320px;
+  }
+
+  /* Modal ajustado */
+  .modal-contenido-informativo{
+    max-width: 600px;
+    font-size: 15px;
+  }
+}
+
 /*******************Recursos *****************
 
 .cardRacursosContenedor {

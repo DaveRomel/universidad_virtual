@@ -199,7 +199,7 @@
     font-size: 22px;
 }
 /* ====== MÓVIL (≤480px) — Sección Contactos ====== */
-@media (max-width: 480px){
+@media (max-width: 640px){
 
   /* Contenedor principal */
   .contactosContenedor{
@@ -339,4 +339,103 @@
   .textoInformacionContactanos{ font-size: 13px; }
   .subtituloRedes, .subtituloRedes a,
   .subtituloSitios, .subtituloSitios a{ font-size: 15px; }
+}
+
+/* ===== Tablet (641px – 1024px) ===== */
+@media (min-width: 641px) and (max-width: 1024px){
+
+  /* Contenedor principal */
+  .contactosContenedor{
+    margin: 40px auto 0;
+    width: 90%;
+    max-width: 700px;
+    padding: 0 10px;
+  }
+
+  /* Título y descripción */
+  .tituloContactanos{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .descripcionContactanos{
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 24px;
+  }
+
+  /* Información de contacto: dos columnas */
+  .informacionContenedorContactanos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .informacionItem{
+    min-width: 0;
+    max-width: 100%;
+  }
+  #Telefonos{ min-width: 0; }
+
+  .subtituloContactanos{ font-size: 18px; text-align: center; }
+  .textoInformacionContactanos{ font-size: 15px; text-align: center; }
+
+  /* ===== Directorio ===== */
+  .directorioContenedor{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .informacionContenedorDirectorio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .informacionItemDirectorio{
+    min-width: 0;
+    max-width: 100%;
+  }
+  #telefono{ margin: 0; }
+
+  /* ===== Redes sociales ===== */
+  .redesContenedor{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .informacionRedesContenedor{
+    margin: 20px auto 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .informacionRedesContenedor img{ width: 48px; }
+  .subtituloRedes, .subtituloRedes a{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* ===== Sitios de interés ===== */
+  .sitiosContenedor{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .informacionSitiosContenedor{
+    margin: 20px auto 0;
+  }
+  .itemSitios{ gap: 12px; }
+  .itemSitios img{ width: 56px; }
+  .subtituloSitios, .subtituloSitios a{
+    font-size: 16px;
+    text-align: left;
+  }
 }
